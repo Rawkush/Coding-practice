@@ -15,10 +15,10 @@ float calcVolume(float lenght, float breadth, float height)// for volume of cubo
   return lenght*breadth*height;
 }
 
-float calcVolume (float radius, float lenght)// for claculating volume of cylinder
+float calcVolume (float radius, float height)// for claculating volume of cylinder
 {
 
-  return 3.14*r*r*h;
+  return 3.14*radius*radius*height;
 }
 
 };
