@@ -26,13 +26,18 @@ float calcVolume (float radius, float lenght)// for claculating volume of cylind
 
  int main()
   {
-volume findVolume;
-float lenght;
+volume find;
+float lenght,breadth, height, radius;
 cout<<"enter the lenght of side of cube ";
 cin>>lenght;
-cout <<findVolume(lenght) << '\n';
+cout <<find.calcVolume(lenght) << '\n';
 
-//cout <<  << '\n';
+
+cout <<"enter the lenght, breadth , height of cuboid"  << '\n';
+cin >> lenght>>breadth>>height;
+cout << find.calcVolume(lenght,breadth,height) << '\n';
+
+
 
   return 0;
 }
