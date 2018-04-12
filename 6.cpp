@@ -30,14 +30,17 @@ volume find;
 float lenght,breadth, height, radius;
 cout<<"enter the lenght of side of cube ";
 cin>>lenght;
-cout <<find.calcVolume(lenght) << '\n';
+cout <<"the volume of cube is: "<<find.calcVolume(lenght) << '\n';
 
 
 cout <<"enter the lenght, breadth , height of cuboid"  << '\n';
 cin >> lenght>>breadth>>height;
-cout << find.calcVolume(lenght,breadth,height) << '\n';
+cout <<"volume of cuboid is: " <<find.calcVolume(lenght,breadth,height) << '\n';
 
+cout << "enter the radius, height of cylinder" << '\n';
+cin>>radius>>height;
 
+cout << "the volume of clinder is:"<<find.calcVolume(radius,height) << '\n';
 
   return 0;
 }
