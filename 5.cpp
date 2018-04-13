@@ -52,7 +52,23 @@ d.value = temp;
 int main()
 {
 
+  A n; // class A objecct
+  B m; // class B object
+  int a,b;
+  cout<<“enter x =”;
+  cin>>a ;
+  cout<<“Enter y =”;
+  cin>>b;
+  n.assign(a); //assigning values
+  m.assign(b); // assigning values
+cout<<"values before swapnig\n";
+  n.display();
+  m.display();
+  cout<<"after swapping";
 
+  swap(n,m); // swapping
+  n.display();
+  m.display();
 
   return 0;
 }
