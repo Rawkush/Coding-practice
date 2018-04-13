@@ -12,8 +12,14 @@ public:
     value=val;
   }
 
+  void display()
+  {
+    cout<<"value of class B : "<<value;
+  }
+
 };
 
+// next class
 class B
 {
   int value;
@@ -23,6 +29,10 @@ B(int val) // for initialisation
   value=val;
 }
 
+void display()
+{
+  cout<<"value of class B : "<<value;
+}
 
 };
 
