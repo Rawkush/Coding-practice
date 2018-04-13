@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+class B;
+
 class A
 {
   int value;
@@ -14,7 +16,7 @@ void  assign(int val) // for assigning value
 
   void display()
   {
-    cout<<"value of class A : "<<value;
+    cout<<"value of class A : "<<value<<endl;
   }
 friend void swap(A&,B&); // prototype of friend function
 };
@@ -32,14 +34,14 @@ void  assign (int val) // for assigning
 
 void display()
 {
-  cout<<"value of class B : "<<value;
+  cout<<"value of class B : "<<value<<endl;
 }
 
 friend void swap(A&,B&); // prototype of friend functiom
 };
 
 // definig the swap function
-void swap(A &c,B&d)
+void swap(A &c,B &d)
 {
 int temp;
 temp =c.value;
@@ -55,16 +57,16 @@ int main()
   A n; // class A objecct
   B m; // class B object
   int a,b;
-  cout<<“enter x =”;
+  cout << "enter x =";
   cin>>a ;
-  cout<<“Enter y =”;
+  cout<<"Enter y =";
   cin>>b;
   n.assign(a); //assigning values
   m.assign(b); // assigning values
-cout<<"values before swapnig\n";
+cout<<endl<<"values before swapnig"<<endl;
   n.display();
   m.display();
-  cout<<"after swapping";
+  cout<<endl<<"after swapping"<<endl;
 
   swap(n,m); // swapping
   n.display();
