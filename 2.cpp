@@ -1,3 +1,4 @@
+//2nd problem statement solution
 #include<iostream>
 #include<dos.h>
 #include<conio.h>
