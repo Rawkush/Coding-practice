@@ -14,10 +14,11 @@ public:
 
   void display()
   {
-    cout<<"value of class B : "<<value;
+    cout<<"value of class A : "<<value;
   }
-
+friend void swap(A&,B&); // prototype of friend function
 };
+
 
 // next class
 class B
@@ -34,8 +35,20 @@ void display()
   cout<<"value of class B : "<<value;
 }
 
+friend void swap(A&,B&); // prototype of friend functiom
 };
 
+// definig the swap function
+void swap(A &c,B&d)
+{
+int temp;
+temp =c.value;
+c.value = d.value;
+d.value = temp;
+}
+
+
+// main funcyion
 int main()
 {
 
