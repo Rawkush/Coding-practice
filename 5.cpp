@@ -7,7 +7,7 @@ class A
 
 public:
 
-  A(int val) // for initiLIAtion
+void  assign(int val) // for assigning value
   {
     value=val;
   }
@@ -25,7 +25,7 @@ class B
 {
   int value;
   public:
-B(int val) // for initialisation
+void  assign (int val) // for assigning
 {
   value=val;
 }
