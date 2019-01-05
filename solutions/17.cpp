@@ -8,7 +8,8 @@ class complex
  public :float real,imag;
    complex()
    {
-    real=0,imag=0;
+    real=0;
+    imag=0;
 
    }
    friend istream& operator>>(istream &in, complex &co1);
