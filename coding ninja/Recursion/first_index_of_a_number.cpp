@@ -2,16 +2,8 @@
 using namespace std;
 
 int first_index(int *a,int n, int s){
-
-    if(n==0)
-        return -1;
-
-    if(a[0]==s)
-        return 0;
-
-    return 1+first_index(a+1,n-1,s);
-
-
+    if(a[0]==s) return 0;
+    return 1+ first_index(a+1,n-1,s);
  }
 
 

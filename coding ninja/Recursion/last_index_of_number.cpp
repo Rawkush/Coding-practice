@@ -4,14 +4,10 @@
 using namespace std;
 
 int last_index(int *a,int n, int s){
-    if(n==-1)
-        return -1;
-
-    if(a[n]==s)
-        return n;
-
-    return last_index(a,n-1,s);
-
+   if(n<=0)
+      return -1;
+    if(a[n-1]==s) return n-1;
+   return last_index(a,n-1,s);
  }
 
 
