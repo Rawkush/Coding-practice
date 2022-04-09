@@ -4,8 +4,6 @@
 
 using namespace std;
 
-unordered_map<int, int> m;
-
 int fact(int n){
     if(n<=1)
         return 1;
