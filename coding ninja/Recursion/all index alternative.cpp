@@ -6,16 +6,14 @@ int all(int *a,int s, int *o,int x){
     if(s==0)
         return 0;
 
-            // size of output arrary
+    // size of output arrary
     int i= all(a,s-1,o,x);
 
     if(a[s-1]==x){
         o[i]=s-1;
         return i+1;
     }
-
     return i;
-
 }
 
 int main(){
