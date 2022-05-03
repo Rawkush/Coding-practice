@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 
-int substring_keypad(int num, string out[]){
+void print_keypad(int num, string output){
     string str="";
     if(num<=1){
-        out[0]=str;
-        return 1;
+        cout<<output<<endl;
+        return;
     }
     int remainder = num%10;
     num = num/10;
@@ -30,23 +30,15 @@ int substring_keypad(int num, string out[]){
             str="";
             break;
     }
-    int size=substring_keypad(num, out);
-    for(int j=0; j< str.size(); j++){
-        for(int i=0; i<size;i++){
-            out[size+i]=out[i] +str[j];
-        }
-        size=size+j;
+
+    for(int i=0; i<str.length(); i++){
+        //include not include ith element
+        print_keypad(num, output+str[i]);
     }
-    return size;
 }
 
 int main(){
-    string a="abc";
-    string* out= new string[1000];
-
-    int count= substring_keypad(2,out);
-    for (int i=0;i<count;i++)
-        cout<<out[i]<<endl;
-
+string a="";
+    print_keypad(23, a);
     return 0;
 }
