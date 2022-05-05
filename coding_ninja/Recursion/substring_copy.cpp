@@ -8,7 +8,6 @@ int  subseq(string inp, string out[]){
         out[0]="";
         return 1; //size of output array
     }
-
     //cant' tdo this in string
     //int size = subseq(inp+1, out);
     //instead we will use substring
