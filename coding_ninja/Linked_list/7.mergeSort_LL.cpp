@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 class Node
 {
 public:
@@ -12,7 +11,6 @@ public:
         this->next = NULL;
     }
 };
-
 Node *mergeTwoSortedLinkedLists(Node *head1, Node *head2)
 {
     Node *fhead, *ftail;
@@ -63,6 +61,7 @@ Node *mergeTwoSortedLinkedLists(Node *head1, Node *head2)
     }
     return fhead;
 }
+
 void print(Node *n)
 {
     while(n!=NULL)
@@ -72,22 +71,55 @@ void print(Node *n)
     }
     cout<<endl;
 }
+Node *midPoint(Node *head)
+{
+    if(head==NULL||head->next==NULL) return head;
+    Node *slow = head;
+    Node *fast= head->next;
+    while(fast!=NULL)
+    {
+        fast = fast->next;
+        if (fast != NULL)
+        {
+            slow = slow->next;
+            fast = fast->next;
+        }
+    }
+    Node *tmp= slow->next;
+    slow->next=NULL;
+    return tmp;
+}
+
+Node *mergeSort(Node *head)
+{
+    //Write your code here
+    if(head==NULL || head->next==NULL)
+    {
+        return head;
+    }
+
+    Node *mid = midPoint(head);
+    print(head);
+    print(mid);
+    head = mergeSort(head);
+    mid = mergeSort(mid);
+    head= mergeTwoSortedLinkedLists(head, mid);
+    print(head);
+    return head;
+}
+
+
 int main()
 {
     Node *head=NULL;
-    Node n1(11),n2(21);
+    Node n1(11),n2(21),n3(13),n4(4);
     n1.next=&n2;
+    n2.next=&n3;
+    n3.next=&n4;
+    n4.next=NULL;
     head=&n1;
+    // print(head);
+    head= mergeSort(head);
     print(head);
-
-    Node *head2=NULL;
-    Node a1(4),a2(14);
-    a1.next=&a2;
-    head2=&a1;
-    print(head2);
-    Node *h;
-    h = mergeTwoSortedLinkedLists(head, head2);
-    print(h);
-
     return 0;
 }
