@@ -25,7 +25,16 @@ void print(Node *n)
 
 Node *reverseLinkedListRec(Node *head)
 {
+    if(head==NULL || head->next==NULL)
+    {
+        return head;
+    }
 
+    Node * newHead=reverseLinkedListRec(head->next);
+    Node *tail = head->next;
+    tail->next=head;
+    head->next=NULL;
+    return newHead;
 }
 
 int main()
