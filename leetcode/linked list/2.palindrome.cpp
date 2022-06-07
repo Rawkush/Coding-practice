@@ -9,46 +9,65 @@ struct ListNode {
   ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-ListNode* midNode(ListNode *head) {
+// ListNode* midNode(ListNode *head) {
+//   if(head == NULL||head->next == NULL) return head;
+//   ListNode *fast = head;
+//   ListNode *prev=NULL;
+//   ListNode *next=head->next;
+//   while(fast!=NULL && fast->next!=NULL){
+//     fast= fast->next->next;
+
+//     head->next=prev;
+//     prev=head;
+//     head=next;
+//     next=next->next;
+//   }
+//   //head->next=prev;
+//   return head;
+// }
+
+// ListNode* reverse(ListNode *head){
+//   if(head->next==NULL || head==NULL) return head;
+//   ListNode *prev=NULL;
+//   ListNode *next=head->next;
+
+//   while(next != NULL){
+//     head->next=prev;
+//     prev=head;
+//     head=next;
+//     next=next->next;
+//   }
+//   head->next=prev;
+//   return head;
+// }
+
+
+/** Find the mid of the list, and reverse the first half od the list,
+ now simply compare the two list*/
+bool isPalindrome(ListNode* head) {
+  if(head==NULL || head->next==NULL) return true;
   ListNode *fast = head;
-  while(fast!=NULL && fast->next!=NULL){
-    fast= fast->next->next;
-    head=head->next;
-  }
-  return head;
-}
-
-ListNode* reverse(ListNode *head){
-  /** recursive approach to reverse */
-  // if(head->next==NULL || head==NULL) return head;
-  // ListNode* newHead= reverse(head->next);
-  // ListNode * tail = head->next;
-  // tail->next=head;
-  // head->next=NULL;
-  // return newHead;
-
-  if(head->next==NULL || head==NULL) return head;
   ListNode *prev=NULL;
   ListNode *next=head->next;
-
-  while(next != NULL){
+  while(fast!=NULL && fast->next!=NULL){
+    fast= fast->next->next;
     head->next=prev;
     prev=head;
     head=next;
     next=next->next;
   }
-  head->next=prev;
-  return head;
-}
 
-bool isPalindrome(ListNode* head) {
-  if(head==NULL || head->next==NULL) return true;
-  ListNode* mid =midNode(head);
-  ListNode* head2 = reverse(mid);
-  while(head!=mid && head2!=NULL){
-    if(head->val!=head2->val)
+  /**  if odd number of elements do not include mid element in 2nd half
+    as it is not present in first half
+  */
+   if(fast!=NULL){
+        head=head->next;
+   }
+
+   while(head!=NULL && prev!=NULL){
+    if(head->val!=prev->val)
       return false;
-    head2 = head2->next;
+    prev = prev->next;
     head = head->next;
   }
   return true;
