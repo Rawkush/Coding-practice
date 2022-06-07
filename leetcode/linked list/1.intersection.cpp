@@ -22,9 +22,14 @@ struct ListNode {
     y be remaining elements of A
     z be the remaining elements of B
 
-    therefore total number of elements in A = y+z
+    therefore total number of elements in A = y+x
     total number of elements in B = z+x
-    Also since we know that all last elements will be same therefore if list A if longer than list B
+    let z=0
+    therefore A = y+x
+              B=x
+              => A-B =y+x-x
+              => A-B = y
+    => since we know that all last elements will be same therefore if list A if longer than list B
     by 2 elements,
     we can gurantee that starting 2 elements of A won't be in B,
     so we first find length of both lists, subtracttheir length
