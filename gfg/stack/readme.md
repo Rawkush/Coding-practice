@@ -9,3 +9,6 @@
 
 4. Sort a stack
    https://practice.geeksforgeeks.org/problems/sort-a-stack/1/?page=1&category[]=Stack&curated[]=7&sortBy=submissions
+
+5. Parenthesis Checker
+   https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1/?page=1&difficulty[]=0&status[]=unsolved&category[]=Stack&curated[]=7&curated[]=8&sortBy=submissions
