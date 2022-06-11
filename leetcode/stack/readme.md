@@ -6,3 +6,6 @@
 
 3. Climbing Stairs
    https://leetcode.com/problems/climbing-stairs/
+
+4. Longest Valid Parentheses
+   https://leetcode.com/problems/longest-valid-parentheses/
