@@ -36,30 +36,20 @@ vector<long long> printFirstNegativeInteger(long long int A[],
     vector<long long> output;
     queue<long long> q;
     long long int i=0;
-    for( i=0; i<K; i++){
-        if(A[i]<0){
-            q.push(A[i]);
-        }
-    }
+
+    for( i=0; i<K; i++)  if(A[i]<0)  q.push(A[i])
 
     long long int start =0;
     long long int end = i;
     // adding negative for current window
     if(q.empty()) output.push_back(0);
-    else{
-        output.push_back(q.front());
-    }
+    else output.push_back(q.front());
 
     for(i=end;i<N; i++){
-
         if(A[start++]==q.front()) q.pop();
-        if(A[i]<0){
-            q.push(A[i]);
-        }
+        if(A[i]<0) q.push(A[i]);
         if(q.empty()) output.push_back(0);
-        else{
-            output.push_back(q.front());
-        }
+        else output.push_back(q.front());
     }
     return output;
  }
