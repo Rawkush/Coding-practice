@@ -60,7 +60,7 @@ void printLevelWise(TreeNode<int>* root) {
     }
 }
 
-
+// 1 2 2 3 0 0
 int getLeafNodeCount(TreeNode<int>* root) {
     // Write your code here
     if(root==NULL) return 0;
