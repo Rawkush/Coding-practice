@@ -88,10 +88,8 @@ Pair* getLargest(TreeNode<int>* root){
     for(int i=0;i<root->children.size();i++){
         Pairtemp= getLargest(root->children[i]);
 
-
-
           if(temp->max->data>current->max->data){
-           // we are checking the current max and temp->second to check for maximum.
+           // we are checking the current->max and temp->sMax to check for maximum.
               if(temp->sMax!=NULL){
                 current->sMax=current->max->data>temp->sMax->data ? current->max: temp->sMax;
             } else
@@ -102,7 +100,7 @@ Pair* getLargest(TreeNode<int>* root){
 
         else if(current->sMax==NULL) {
 
-            // if temp->max is equal to largest then we can't assign the current-> sMax to temp->max 
+            // if temp->max is equal to current->max then we can't assign the current-> sMax to temp->max 
             //because the max and sMax cannot be same
             if(temp->max->data<current->max->data)
 
