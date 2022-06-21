@@ -79,44 +79,39 @@ class Pair{
 };
 
 Pair* getLargest(TreeNode<int>* root){
-    if(root==NULL) return NULL;
+  Pair *largest=new Pair(root, NULL);
+  for(int i=0;i<root->children.size();i++){
+    Pair *tmp = getLargest(root->children[i]);
+    if(tmp->max->data==largest->max->data){
+      if(tmp->smax==NULL); else
+      if (largest->smax==NULL) largest->smax=tmp->smax; else
+      if (largest->smax->data<tmp->smax->data) largest->smax=tmp->smax;
+      continue;
+    }else
+    if(tmp->max->data < largest->max->data){
+      if(largest->smax==NULL) largest->smax=tmp->max; else
+      if(tmp->max->data >= largest->smax->data)  largest->smax=tmp->max;
+      // if(tmp->smax==NULL); else
+      //if(tmp->smax->data> largest->smax->data) largest->smax=tmp->smax;
+    } else
+    if(tmp->max->data > largest->max->data){
+      if(largest->smax==NULL){
+        if(tmp->smax == NULL) largest->smax=largest->max; else
+        if(largest->max->data>=tmp->smax->data) largest->smax= largest->max;
+        else largest->smax = tmp->smax;
+      } else
+      if(tmp->smax==NULL){
+        largest->smax=largest->max;
+      } else
+      if(tmp->smax->data > largest->max->data){
+        largest->smax=tmp->smax;
+      } else
+        largest->smax=largest->max;
 
-    Pair *pair=NULL;
-    for(int i=0;i<root->children.size();i++){
-        Pair *newPair = getLargest(root->children[i]);
-        if(pair==NULL){
-            pair = newPair;
-            continue;
-        }
-        if(pair->max->data<newPair->max->data){
-            if(pair->smax!=NULL&&newPair->smax!=NULL&&pair->smax->data<newPair->smax->data){
-                pair= newPair;
-                continue;
-            }
-            pair->smax=pair->max;
-            pair->max= newPair->max;
-            //pair max =  newPair->max;
-            continue;
-        }
-        if(pair->smax==NULL){
-            pair->smax=newPair->smax;
-            continue;
-        }
-        if(pair->smax->data<newPair->max->data){
-            pair->smax= newPair->smax;
-        }
+      largest->max= tmp->max;
     }
-
-    // handle for root
-    if(pair == NULL) return new Pair(root, NULL);
-    if(root->data>pair->max->data){
-        return new Pair(root, pair->max);
-    }
-    if(pair->smax==NULL){
-        return new Pair(pair->max, root);
-    }
-    if(root->data>pair->smax->data) return new Pair(pair->max, root);
-    return pair;
+  }
+  return largest;
 }
 
 TreeNode<int>* getSecondLargestNode(TreeNode<int>* root) {
