@@ -75,7 +75,15 @@ BinaryTreeNode<int>* takeInputLevelWise(){
   }
   return root;
 }
-
+void mirrorBinaryTree(BinaryTreeNode<int>* root) {
+    // Write your code here
+ 	if(root==NULL) return;
+    BinaryTreeNode<int> *tmp= root->left;
+    root->left=root->right;
+    root->right=tmp;
+    mirrorBinaryTree(root->left);
+    mirrorBinaryTree(root->right);
+}
 int main(){
   BinaryTreeNode<int> *root = new BinaryTreeNode<int>(1);
   BinaryTreeNode<int> *node1 = new BinaryTreeNode<int>(2);
