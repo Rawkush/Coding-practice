@@ -97,26 +97,26 @@ BinaryTreeNode<int>* buildTree(int *postorder, int postLength, int *inorder, int
  TreeNode *flat(TreeNode * root){
      if(root==NULL) return NULL;
      if(root->left==NULL && root->right==NULL) return root;
-      TreeNode *left= root->left;
-      TreeNode *right = root->right;
 
-      TreeNode *leftLeaf= flat(root->left);
-      TreeNode *rightLeaf= flat(root->right);
-      root->left=NULL;
-      if(leftLeaf==NULL) return rightLeaf;
-      root->right=left;
-      leftLeaf->right=right;
+     TreeNode *left= root->left;
+     TreeNode *right = root->right;
+
+     TreeNode *leftLeaf= flat(root->left);
+     TreeNode *rightLeaf= flat(root->right);
+     root->left=NULL;
+     if(leftLeaf==NULL) return rightLeaf;
+     root->right=left;
+     leftLeaf->right=right;
      if(rightLeaf==NULL) return leftLeaf;
      return rightLeaf;
 
    }
 
 
-    void flatten(TreeNode* root) {
-       if(root==NULL)  return;
-       flat(root);
-
-    }
+void flatten(TreeNode* root) {
+  if(root==NULL)  return;
+  flat(root);
+}
 
 
 int main(){
