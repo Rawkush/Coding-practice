@@ -6,3 +6,5 @@
 
 3. Flatten Binary Tree to Linked List
    https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+4. Binary Tree Zigzag Level Order Traversal
+   https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
