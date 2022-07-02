@@ -11,7 +11,6 @@ class Solution {
      left.insert(left.end(),v.begin(),v.end());
      
      left.insert(left.end(),right.begin(),right.end()); 
-     
      return left;
     }
 };
