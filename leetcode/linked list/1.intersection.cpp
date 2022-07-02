@@ -43,6 +43,16 @@ struct ListNode {
      so we can can gurantee that index 0 of list can never intersect with anythingother that index 0 of B
 
 */
+
+/**
+ * We traverse both lists to find their lengths. Then we traverse the longer list by the difference in
+ * lengths. Then we traverse both lists in parallel until we find a common node
+ *
+ * @param headA the head of the first linked list
+ * @param headB the head of the second linked list
+ *
+ * @return The node where the intersection occurs.
+ */
 ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
  int diffLength=0;
  int headALength=0;
@@ -82,6 +92,7 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
   }
   return ptr1;
 }
+
 int main(){
   ListNode *headA = new ListNode(1);
   ListNode i(2);

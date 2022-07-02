@@ -15,3 +15,4 @@
 
 6. min element in Binary Tree
    https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1/?page=1&difficulty[]=-1&status[]=unsolved&category[]=Tree&sortBy=submissions
+
