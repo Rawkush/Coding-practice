@@ -7,3 +7,5 @@
 3. Kth Smallest Element in a BST
    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 
+4. lowest comm ancestor in bst
+   https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
