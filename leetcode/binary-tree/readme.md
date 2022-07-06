@@ -12,3 +12,6 @@
 
 5. Delete Leaves With a Given Value
    https://leetcode.com/problems/delete-leaves-with-a-given-value/
+
+6. Lowest Common Ancestor of a Binary Tree
+   https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
