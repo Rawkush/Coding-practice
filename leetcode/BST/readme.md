@@ -9,3 +9,7 @@
 
 4. lowest comm ancestor in bst
    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+5. Insert into a Binary Search Tree
+   https://leetcode.com/problems/insert-into-a-binary-search-tree/
+
