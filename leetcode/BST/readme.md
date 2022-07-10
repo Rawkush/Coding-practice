@@ -15,3 +15,6 @@
 
 6. Delete Node in a BST
    https://leetcode.com/problems/delete-node-in-a-bst/
+
+7. Largest BST in a Binary Tree
+   https://practice.geeksforgeeks.org/problems/largest-bst/1#
