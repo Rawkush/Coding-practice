@@ -21,3 +21,6 @@
 
 8. All nodes Distance K in binary tree
    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+
+9. Check Completeness of a Binary Tree
+   https://leetcode.com/problems/check-completeness-of-a-binary-tree/
