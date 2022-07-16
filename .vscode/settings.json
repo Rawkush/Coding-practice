@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "vector": "cpp",
-    "functional": "cpp"
+    "functional": "cpp",
+    "type_traits": "cpp"
   }
 }
