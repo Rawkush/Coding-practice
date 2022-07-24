@@ -9,3 +9,6 @@
 
 4. Merge k Sorted Lists
    https://leetcode.com/problems/merge-k-sorted-lists/
+
+5. Find Median from Data Stream
+   https://leetcode.com/problems/find-median-from-data-stream/
