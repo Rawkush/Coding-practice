@@ -12,3 +12,12 @@
 
 5. Find Median from Data Stream
    https://leetcode.com/problems/find-median-from-data-stream/
+
+6. Relative Ranks
+   https://leetcode.com/problems/relative-ranks/
+
+7. Last Stone Weight
+   https://leetcode.com/problems/last-stone-weight/
+
+8. Maximum Product of Two Elements in an Array
+   https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
