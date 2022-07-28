@@ -21,3 +21,6 @@
 
 8. Maximum Product of Two Elements in an Array
    https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
+
+9. Minimum Amount of Time to Fill Cups
+   https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/
