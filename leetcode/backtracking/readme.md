@@ -9,3 +9,6 @@
 
 4. subset (powerset)
    https://leetcode.com/problems/subsets/
+
+5. Permutations
+   https://leetcode.com/problems/permutations/
