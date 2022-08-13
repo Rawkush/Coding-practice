@@ -6,3 +6,6 @@
 
 3. Sudoku solver
    https://leetcode.com/problems/sudoku-solver/
+
+4. subset (powerset)
+   https://leetcode.com/problems/subsets/
