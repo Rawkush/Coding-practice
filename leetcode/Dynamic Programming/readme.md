@@ -3,3 +3,6 @@
 
 2. Frog jump
    https://leetcode.com/problems/frog-jump/
+
+3. Balanced Binary Tree count
+   https://practice.geeksforgeeks.org/problems/bbt-counter4914/1

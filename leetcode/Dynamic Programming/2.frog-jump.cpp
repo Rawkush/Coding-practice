@@ -1,18 +1,22 @@
 #include<iostream>
 #include<unordered_map>
 #include<vector>
+#include<bits/stdc++.h>
 using namespace std;
+
+map<pair<int,int>,bool>mem;
 
 bool canCrossHelper( unordered_map<int, int> &stones, int idx, int jump, int destination){
   if(idx>= destination) return true;
   if(stones.find(idx)==stones.end()) return false;
-
+  if(mem.find({idx, jump})!=mem.end()) return mem[{idx, jump}];
   bool result = false;
   if(jump>0){
     result = result || canCrossHelper(stones, idx+jump, jump, destination);
     result = result || canCrossHelper(stones, idx+jump-1, jump-1, destination);
   }
   result = result || canCrossHelper(stones, idx+jump+1, jump+1, destination);
+  mem[{idx, jump}]=result;
   return result;
 }
 
