@@ -9,3 +9,9 @@
 
 4. Min cost Path
    https://leetcode.com/problems/minimum-path-sum/
+
+5. Triangle min cost path
+   https://leetcode.com/problems/triangle/
+
+6. Unique Paths
+   https://leetcode.com/problems/unique-paths/
