@@ -6,3 +6,6 @@
 
 3. Balanced Binary Tree count
    https://practice.geeksforgeeks.org/problems/bbt-counter4914/1
+
+4. Min cost Path
+   https://leetcode.com/problems/minimum-path-sum/
