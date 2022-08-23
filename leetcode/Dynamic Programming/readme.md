@@ -15,3 +15,9 @@
 
 6. Unique Paths
    https://leetcode.com/problems/unique-paths/
+
+7. house robber
+   https://leetcode.com/problems/house-robber/
+
+8. house robber 2
+   https://leetcode.com/problems/house-robber-ii/
