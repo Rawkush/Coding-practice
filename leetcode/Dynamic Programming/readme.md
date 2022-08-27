@@ -21,3 +21,6 @@
 
 8. house robber 2
    https://leetcode.com/problems/house-robber-ii/
+
+9. LCS
+   https://leetcode.com/problems/longest-common-subsequence/

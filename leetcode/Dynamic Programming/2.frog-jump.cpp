@@ -29,6 +29,25 @@ bool canCross(vector<int> &stones){
   return canCrossHelper(mp, 0, 1, destination);
 }
 
+//DP
+
+bool canCross(vector<int> &stones){
+  map<pair<int,int>,bool>mem;
+  mem[{0,1}] = true;
+  for(int i = 1; i <stones.size(); i++){
+    for(int j = 0; j < i; j++){
+      int jumpToReachDes = stones[i]- stones[j];
+      if(jumpToReachDes <0 || jumpToReachDes > stones.size() || mem.find({j, jumpToReachDes})==mem.end()) continue;
+      mem[{i,jumpToReachDes}]=true;
+      if(jumpToReachDes - 1 >= 0) mem[{i,jumpToReachDes - 1}] = true;
+      if(jumpToReachDes + 1 <= stones.size()) mem[{i, jumpToReachDes + 1}] = true;
+      if(i==stones.size()-1) return true;
+    }
+  }
+  return  false;
+}
+
+
 int main(){
   vector<int> v;
   v.push_back(0);
