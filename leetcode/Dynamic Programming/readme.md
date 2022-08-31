@@ -24,3 +24,6 @@
 
 9. LCS
    https://leetcode.com/problems/longest-common-subsequence/
+
+10. edit-distance
+    https://leetcode.com/problems/edit-distance/
