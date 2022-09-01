@@ -27,3 +27,8 @@
 
 10. edit-distance
     https://leetcode.com/problems/edit-distance/
+
+11. Partition Equal Subset Sum
+    https://leetcode.com/problems/partition-equal-subset-sum/
+
+12. coin change
