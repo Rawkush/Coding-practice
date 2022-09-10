@@ -32,3 +32,6 @@
     https://leetcode.com/problems/partition-equal-subset-sum/
 
 12. coin change
+
+13. longest increasing subsequence
+    https://leetcode.com/problems/longest-increasing-subsequence/
