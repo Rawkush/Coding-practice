@@ -13,4 +13,8 @@
 5. Add Two Numbers
    https://leetcode.com/problems/add-two-numbers/
 
-237. https://leetcode.com/problems/delete-node-in-a-linked-list/
+6. delete a node from the linked list
+   https://leetcode.com/problems/delete-node-in-a-linked-list/
+   
+7. delete the mid node from the linked
+   https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/submissions/

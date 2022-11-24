@@ -24,9 +24,9 @@ class PriorityQueue {
         if(pq.size()==1) return;
         while(childIndex>0){
 	        int parentIndex = (childIndex-1)/2;
-			if(pq[childIndex]> pq[parentIndex]){
-                swap(pq[childIndex], pq[parentIndex]);
-            } else break;
+			    if(pq[childIndex]> pq[parentIndex]){
+            swap(pq[childIndex], pq[parentIndex]);
+          } else break;
             childIndex = parentIndex;
         }
     }
