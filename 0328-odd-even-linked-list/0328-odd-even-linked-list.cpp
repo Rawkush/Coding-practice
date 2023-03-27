@@ -15,15 +15,11 @@ public:
   }
   ListNode* oddEvenList(ListNode* head) {
     if(head==NULL) return NULL;
-    ListNode *ohead = NULL;
-    ListNode *otail = NULL;
+    ListNode *ohead = head;
+    ListNode *otail = head;
     ListNode *ehead = NULL;
     ListNode *etail =NULL;
-    ListNode *next = head->next;
-
-    ohead= head;
-    otail = head;
-    head= next;
+    head= head->next;
     int count = 2;
     while(head!=NULL){
       ListNode *next = head->next;
@@ -37,13 +33,8 @@ public:
           etail = head;
         }
       }else{
-        if(ohead==NULL){
-          ohead= head;
-          otail = head;
-        }else{
-          otail->next=head;
-          otail = head;
-        }
+        otail->next=head;
+        otail = head;
       }
       count++;
       head=next;
