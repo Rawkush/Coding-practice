@@ -27,7 +27,7 @@ public:
 
   void print(ListNode*head, ListNode*tail){
     while(head!=tail && head!=NULL){
-      cout<<head->val<<" ";
+      // cout<<head->val<<" ";
       head=head->next;
     }
   }
@@ -41,18 +41,10 @@ public:
       tail=tail->next;
       i++;
     }
-    // cout<<"st "<<head->val<<" t "<<tail->val<<endl;
-    // cout<<"i "<<i<<endl;
     if(i<k) return head;
-    // if(i==1 && tail)
     ListNode* rt = reverseKGroup(tail->next,k); //right part head
     tail->next =NULL;
-    // cout<<endl<<"before ";
-    print(head, tail);
     pair<ListNode*, ListNode*> reversed = reverseList(head);
-    cout<<endl<<" after ";
-    cout<<"\nrev "<<reversed.first->val<<" end "<<reversed.second->val<<endl;
-    print(reversed.first, reversed.second);
     newHead = reversed.first;
     reversed.second->next = rt;
     return newHead;
