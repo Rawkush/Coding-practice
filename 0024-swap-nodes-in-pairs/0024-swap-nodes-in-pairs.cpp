@@ -22,7 +22,6 @@ public:
       cout<< curr->val<< " ";
 
       ListNode* next = curr->next;
-      // swap curr with next;
       if(prev==NULL){
         head= next;
         newHead= next;
