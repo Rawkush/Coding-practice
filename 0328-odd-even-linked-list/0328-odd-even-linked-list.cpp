@@ -44,20 +44,38 @@ public:
   // }
 
 // 2nd solution
+  // ListNode* oddEvenList(ListNode* head) {
+  //   if(head==NULL || head->next==NULL || head->next->next==NULL) return head;
+  //   ListNode *otail = head;
+  //   ListNode *ehead = head->next;
+  //   ListNode *etail = head->next;
+  //   while(otail->next && etail->next){
+  //     //odd->next is even 
+  //     // even->next is odd
+  //     otail->next=etail->next;
+  //     otail= otail->next;
+  //     etail->next= otail->next;
+  //     etail = etail->next;
+  //   }
+  //   otail->next= ehead;
+  //   return head;
+  // }
+
   ListNode* oddEvenList(ListNode* head) {
-    if(head==NULL || head->next==NULL || head->next->next==NULL) return head;
-    ListNode *otail = head;
-    ListNode *ehead = head->next;
-    ListNode *etail = head->next;
+    if(!head || !head->next) return head;
+    ListNode* ohead=head;
+    ListNode* otail =head;
+    ListNode* ehead = head->next;
+    ListNode* etail = head->next;
     while(otail->next && etail->next){
-      //odd->next is even 
-      // even->next is odd
-      otail->next=etail->next;
+      otail->next = otail->next->next;
+      etail->next = etail->next->next;
+      etail= etail->next;
       otail= otail->next;
-      etail->next= otail->next;
-      etail = etail->next;
     }
-    otail->next= ehead;
-    return head;
+    otail->next = ehead;
+    return ohead;
   }
+
+
 };
