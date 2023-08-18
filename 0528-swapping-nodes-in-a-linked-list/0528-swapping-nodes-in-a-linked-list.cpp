@@ -41,7 +41,7 @@ public:
     // if swapping adjacent nodes
     if(itr1->next==itr2){
       // itr1->next->next =itr1->next->next->next;
-      cout<<" adjacent swap";
+      // cout<<" adjacent swap";
       // ListNode *tmp =itr1->next;
       itr1->next = itr2->next;
       itr2->next = itr2->next->next;
@@ -51,7 +51,7 @@ public:
     }
     if(itr2->next==itr1){
       // itr1->next->next =itr1->next->next->next;
-      cout<<" adjacent swap";
+      // cout<<" adjacent swap";
       // ListNode *tmp =itr1->next;
       itr2->next = itr1->next;
       itr1->next = itr1->next->next;
