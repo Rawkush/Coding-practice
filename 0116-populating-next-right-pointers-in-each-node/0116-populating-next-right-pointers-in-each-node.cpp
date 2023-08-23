@@ -34,7 +34,6 @@ public:
         if(curr->left && curr->right){
           mq.push(curr->left);
           mq.push(curr->right);
-          // curr->left->next = curr->right;
         }
       }
     }
