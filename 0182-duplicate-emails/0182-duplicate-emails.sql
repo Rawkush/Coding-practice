@@ -10,6 +10,8 @@
 # where count >1;
 
 
+
+## solution 2
 select email
 from Person
 group by email 
