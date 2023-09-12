@@ -1,25 +1,30 @@
-
-#include<queue>
-
 class Solution {
 public:
-  vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-    priority_queue<pair<int,int>> pq;
-    vector<int> result;
-    for(int i=0; i<k;i++){
-      pq.push(make_pair(nums[i],i));
-    }
-    result.push_back(pq.top().first);
-
-    for(int i=k; i<nums.size(); i++){
-      pq.push(make_pair(nums[i],i));
-      int pos = pq.top().second;
-      while(i-pos>=k){
-        pq.pop();
-        pos = pq.top().second;
+// can be solved using PQ, with size k
+  void print(queue<int> q){
+      while(!q.empty()){
+        cout<<q.front()<<" ";
+        q.pop();
       }
-      result.push_back(pq.top().first);
+      cout<<endl;
+  }
+  vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+    deque<int> q;
+    vector<int> res;
+    for(int i=0;i<k; i++){ 
+      while(!q.empty() && q.back()> q.front()) q.pop_front();
+      while(!q.empty() && q.back() < nums[i] ) q.pop_back();
+      q.push_back(nums[i]);
     }
-    return result;
+    res.push_back(q.front());
+    for(int i=0, j=k; j<nums.size(); i++, j++){
+      if(q.front()==nums[i]) q.pop_front();
+      // while(!q.empty() && q.back()> q.front()) q.pop_front();
+      while(!q.empty() && q.back() < nums[j] ) q.pop_back();
+      q.push_back(nums[j]);
+      res.push_back(q.front());
+    }
+
+    return res;
   }
 };
