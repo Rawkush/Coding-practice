@@ -2,7 +2,7 @@ class Solution {
 public:
  
  /**
- * Two pointers
+ * Two pointers / floydd warshall
  * TC O(n)
  * SC O(1)
  */
@@ -22,6 +22,7 @@ public:
     // head2 => nums[slow], tail2 = slow
     int head1 = 0;
     int head2 = fast;
+    // according to floydd cycle detection 
     while(head1 != head2){
       head1 = nums[head1];
       head2 = nums[head2];
