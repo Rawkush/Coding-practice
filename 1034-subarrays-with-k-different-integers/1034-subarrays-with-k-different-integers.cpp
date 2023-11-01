@@ -13,18 +13,18 @@ So suppose we take the 12 children five years old or younger, and remove from th
   // calculate all subset till valid
   int helper(vector<int>& nums, int k){
     unordered_map<int, int> mp; // value , count
-    int i=0;
+    int r=0;
     int count =0;
-    int st = 0;
-    while(i<nums.size()){
-      mp[nums[i]]++;
+    int l = 0;
+    while(r<nums.size()){
+      mp[nums[r]]++;
       while(mp.size()>k){
-        mp[nums[st]]--;
-        if(mp[nums[st]]==0) mp.erase(nums[st]);
-        st++;
+        mp[nums[l]]--;
+        if(mp[nums[l]]==0) mp.erase(nums[l]);
+        l++;
       }
-      count += i-st+1;
-      i++;
+      count += r-l+1;
+      r++;
     }
     return count;
   }
