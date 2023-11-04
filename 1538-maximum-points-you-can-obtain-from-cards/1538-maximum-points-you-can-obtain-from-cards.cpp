@@ -13,9 +13,10 @@ public:
     int res=sum;
     // check if we move the window, i.e take one element from back will we get more score
     for(int i=k-1, j=1; i>=0; i--, j++){
-      sum-=cardPoints[i];
-      sum+=cardPoints[cardPoints.size()-j];
-      res = max(res, sum);
+      //slided window toward left 
+      sum-=cardPoints[i]; ///remove this item from window
+      sum+=cardPoints[cardPoints.size()-j]; //add this item to window
+      res = max(res, sum); // check if max with current element
     }
     return res;
   }
