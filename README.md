@@ -12,6 +12,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/Rawkush/Coding-practice/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Rawkush/Coding-practice/tree/master/0547-number-of-provinces) |
@@ -57,4 +58,12 @@
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0542-01-matrix) |
+## Hash Table
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/Rawkush/Coding-practice/tree/master/0127-word-ladder) |
+## String
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/Rawkush/Coding-practice/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
