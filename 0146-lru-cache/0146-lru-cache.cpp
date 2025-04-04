@@ -2,124 +2,109 @@ class Node{
   public:
   int val;
   int key;
-  Node *next;
   Node* prev;
-  Node(int _key, int data){
-    val = data;
-    next =NULL;
-    prev = NULL;
+  Node* next;
+  Node(int _key, int _val){
+    val= _val;
     key = _key;
+    prev=NULL;
+    next=NULL;
   }
 };
+
 class LRUCache {
 public:
-
-    int size;
-    int msize;
-    Node *head;
-    Node *tail;
-    unordered_map<int, Node*> mp;
-    LRUCache(int capacity) {
-      size=0;
-      msize = capacity;
-      head = NULL;
-      tail= NULL;
+    int capacity;
+    Node* head;
+    Node* tail;
+    int currSize;
+    /**
+    * key- Node pair
+    */
+    unordered_map<int,Node*> mp;
+    
+    LRUCache(int _capacity) {  
+      capacity=_capacity;    
+      head=NULL;
+      tail=NULL;
+      currSize=0;
     }
     
+    void deleteNode(Node* node){
+      if (node == head) {
+        head = head->next;
+        node->next=NULL;
+        if (head) head->prev = NULL;
+        if (node == tail) tail = NULL;  // In case it was the only node
+        return;
+      }
+
+      if(node==tail){
+        Node *newTail = tail->prev;
+        if(newTail) newTail->next=NULL;
+        tail->prev=NULL;
+        tail=newTail;
+        return;
+      } 
+
+      //middle element deletion
+      Node*prev = node->prev;
+      prev->next=node->next;
+      node->next->prev = prev;
+      node->next=NULL;
+      node->prev=NULL;
+      return;
+    }
+
+    void pushNode(Node*node){
+      if(head==NULL){
+        head=node;
+        tail=node;
+        return;
+      }
+      node->next=head;
+      head->prev = node;
+      node->prev=NULL;
+      head=node;
+    }
+
     int get(int key) {
       if(mp.find(key)==mp.end()){
         return -1;
       }
-      // get node and bring it on head;
-      Node* curr = mp[key];
-      refresh(curr);
-      return curr->val;
+      /**
+      * Node exists, so remove it from current position, and push it to top of queue
+      */
+      Node* node = mp[key];
+      deleteNode(node);
+      pushNode(node);
+      return node->val;
     }
-
-    void print(Node* thead){
-      while(thead){
-        cout<<thead->val<<" -> ";
-        thead=thead->next;
-      }
-      cout<<endl;
-    }
-
-    void refresh(Node *curr){
-      // print(head);
-      if(!head){
-        head = curr;
-        tail = curr;
-        if(msize > size) size++;
-        return;
-      }
-      if(curr == head){
-        return;
-      }
-      if( curr == tail){
-        tail = curr->prev;
-        curr->prev=NULL;
-        tail->next =NULL;
-        curr->next = head;
-        head->prev = curr;
-        head= curr;
-        return;
-      }
-
-      // it means a new node is being added
-      if(curr->next ==NULL && curr->prev==NULL){
-        curr->next = head;
-        head->prev = curr;
-        head = curr;
-        if(msize > size) size++;
-        return;
-      }
-      
-
-      //mid element
-        Node* prev = curr->prev;
-        Node* next = curr->next;
-        curr->prev = NULL;
-        curr->next = NULL;
-
-        prev->next = next;
-        next->prev = prev;
-
-        curr->next = head;
-        head->prev = curr;
-        head = curr;
-    }
-
     
-
     void put(int key, int value) {
-      
-      // trying to insert  a new element
-      if(mp.find(key)==mp.end()){
-        Node* curr = new Node(key, value);
-        mp[key] = curr;
-        //if msize ==size remove tail
-        // cout<<"size " <<size<< " val "<< key<<endl;
-        if(msize == size){
-          Node *last = tail;
-          tail = tail->prev;
-          if(tail)
-            tail->next = NULL;
-          else{
-            head =NULL;
-            size--;
-          }
-          last->prev = NULL;
-          mp.erase(last->key);
-          delete last;
-        }
-        refresh(curr); // this will the new node
+      Node*node = NULL;
+      if(mp.find(key)!=mp.end()){
+        node = mp[key];
+        //no change is size;
+        deleteNode(node);
+        node->val=value;
+        pushNode(node);
+        return;
+      }
+
+      /**
+      * if key does not exists
+      */
+      node = new Node(key, value);
+      mp[key] = node;
+      if(currSize>=capacity){
+        mp.erase(tail->key);
+        deleteNode(tail);
+        pushNode(node);
       }else{
-
-        // updating existing data, so no need to delete anything;
-
-        Node *curr = mp[key];
-        curr->val = value;
-        refresh(curr);
+        currSize++;
+        pushNode(node);
+        if(tail==NULL) tail=head;
       }
     }
 };
