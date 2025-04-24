@@ -5,6 +5,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Rawkush/Coding-practice/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
@@ -13,6 +14,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0126-word-ladder-ii](https://github.com/Rawkush/Coding-practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Rawkush/Coding-practice/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
@@ -148,4 +150,12 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Rawkush/Coding-practice/tree/master/0146-lru-cache) |
+## Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
