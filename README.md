@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Rawkush/Coding-practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Rawkush/Coding-practice/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
@@ -76,6 +77,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Rawkush/Coding-practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0542-01-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0542-01-matrix) |
 ## Hash Table
 |  |
@@ -154,8 +156,10 @@
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Rawkush/Coding-practice/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Binary Tree
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Rawkush/Coding-practice/tree/master/0124-binary-tree-maximum-path-sum) |
 <!---LeetCode Topics End-->
