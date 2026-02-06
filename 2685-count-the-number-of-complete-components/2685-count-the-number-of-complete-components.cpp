@@ -20,38 +20,9 @@ class DisjointSet {
         }
     }
 };
-// class Solution {
-// public:
-//     int countCompleteComponents(int n, vector<vector<int>>& edges) {
-//         DisjointSet dj;
-//         /** add all edges to disjoint set */
-//         for(auto x: edges) {
-//             dj.unionBySize(x[0], x[1]);
-//         }
-
-//         /** now iterate over all the edges to find unique parents */
-//         unordered_set<int> set;
-//         for(int i=0; i<n; i++){
-//             set.insert(dj.findP(i));
-//         }
-//         return set.size();
-//     }
-// };
 
 class Solution {
 public:
-
-    // void printg(unordered_map<int, vector<int>>&graph, int n){
-    //     for(int i=0; i<n; i++ ) {
-    //         cout<<" node from "<< i <<endl;
-    //         vector<int> neigh = graph[i];
-    //         for(auto x: neigh) {
-    //             cout<<"        "<<x<<endl;
-    //         }
-    //         cout<<endl;
-    //     }
-    //     return;
-    // }
 
     void createGraph(unordered_map<int, vector<int>>&graph, vector<vector<int>>&edge) {
         for(auto x: edge) {
