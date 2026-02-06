@@ -72,6 +72,7 @@
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
 | [3430-count-days-without-meetings](https://github.com/Rawkush/Coding-practice/tree/master/3430-count-days-without-meetings) |
+| [3634-minimum-removals-to-balance-array](https://github.com/Rawkush/Coding-practice/tree/master/3634-minimum-removals-to-balance-array) |
 ## Matrix
 |  |
 | ------- |
@@ -123,6 +124,7 @@
 |  |
 | ------- |
 | [1755-defuse-the-bomb](https://github.com/Rawkush/Coding-practice/tree/master/1755-defuse-the-bomb) |
+| [3634-minimum-removals-to-balance-array](https://github.com/Rawkush/Coding-practice/tree/master/3634-minimum-removals-to-balance-array) |
 ## Simulation
 |  |
 | ------- |
@@ -143,6 +145,7 @@
 | [0414-third-maximum-number](https://github.com/Rawkush/Coding-practice/tree/master/0414-third-maximum-number) |
 | [0621-task-scheduler](https://github.com/Rawkush/Coding-practice/tree/master/0621-task-scheduler) |
 | [3430-count-days-without-meetings](https://github.com/Rawkush/Coding-practice/tree/master/3430-count-days-without-meetings) |
+| [3634-minimum-removals-to-balance-array](https://github.com/Rawkush/Coding-practice/tree/master/3634-minimum-removals-to-balance-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
