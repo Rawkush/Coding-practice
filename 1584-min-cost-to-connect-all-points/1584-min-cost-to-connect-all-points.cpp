@@ -2,8 +2,6 @@
 class Solution {
 public:
 
-
-
     int getWeight(vector<vector<int>>& points, int i, int j) {
        return abs(points[i][0] - points[j][0]) + abs(points[i][1] - points[j][1]); 
     }
@@ -43,6 +41,12 @@ public:
         weight[0] = 0;
         int cost = 0, node = 0;
         for(int i=0; i<n; i++) {
+            /**
+            Why did not use PQ? I did but it gave TLE, bcz 
+            it is a connected graph, and so had to push too much data
+            and discard everything again for every path exploration
+            else size keeps increasing and so does runtime TC 
+            */
             node = minCostVertex(weight, node, vis);
             vis[node] = true;
             cost += weight[node];
