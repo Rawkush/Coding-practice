@@ -3,10 +3,9 @@ public:
     /** Iterative DP */
     int numDecodings(string s) {
         vector<int> dp(s.size()+1, 0);
-        dp[0] = 0;
-        if(s[0]=='0') dp[0] = 0;
-        else dp[0] = 1;
-        for(int i=1; i<=s.size(); i++) {
+        dp[0] = 1; //empty string has 1 way to decode that is empty itself
+        dp[1] = s[0]=='0' ? 0 : 1; 
+        for(int i=2; i<=s.size(); i++) {
             if(s[i-1] != '0') {
                 dp[i] = dp[i-1];
             }
