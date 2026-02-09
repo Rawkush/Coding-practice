@@ -5,14 +5,17 @@ public:
     int getWeight(vector<vector<int>>& points, int i, int j) {
        return abs(points[i][0] - points[j][0]) + abs(points[i][1] - points[j][1]); 
     }
-    void exploreAllPaths(vector<vector<int>>& points, int idx, vector<bool>&vis, vector<int> &weight ) {
+    void exploreAllPaths(vector<vector<int>>& points, int idx, vector<bool>&vis, vector<int> &weight, priority_queue<pair<int,int>,vector<pair<int,int>>, greater<pair<int,int>>> &pq ) {
       for(int i=0; i<points.size(); i++) {
         if(i==idx || vis[i]) continue;
         int cw = weight[i]; //current weight
         int w = getWeight(points, idx, i); //weight from  idx node to ith node
-        if(w<cw) {
-            weight[i] = w;
-        }
+        pq.push({w, i});
+
+        // if(w<cw) {
+        //     weight[i] = w;
+        //     pq.push({w, i});
+        // }
       } 
     }
 
@@ -35,23 +38,39 @@ public:
         NOTE: we can assume each coordinate as a vertex, and can denote it like 
         veterx => Vi  where Vi has coordinate X1, Y1
         */
+        priority_queue<pair<int,int>,vector<pair<int,int>>, greater<pair<int,int>>> pq;
         int n = points.size();
         vector<bool> vis(n , false);
         vector<int> weight(n, INT_MAX);
+        
         weight[0] = 0;
+        pq.push({0, 0});
         int cost = 0, node = 0;
-        for(int i=0; i<n; i++) {
-            /**
-            Why did not use PQ? I did but it gave TLE, bcz 
-            it is a connected graph, and so had to push too much data
-            and discard everything again for every path exploration
-            else size keeps increasing and so does runtime TC 
-            */
-            node = minCostVertex(weight, node, vis);
-            vis[node] = true;
-            cost += weight[node];
-            exploreAllPaths(points, node, vis, weight);
+
+        while(!pq.empty()){ 
+            auto p = pq.top();
+            pq.pop();
+            int w = p.first;
+            int v = p.second;
+            if(vis[v]) continue;
+            vis[v] = true;
+
+            cost +=w;
+            exploreAllPaths(points, v, vis, weight, pq);
         }
+
+        // for(int i=0; i<n; i++) {
+        //     /**
+        //     Why did not use PQ? I did but it gave TLE, bcz 
+        //     it is a connected graph, and so had to push too much data
+        //     and discard everything again for every path exploration
+        //     else size keeps increasing and so does runtime TC 
+        //     */ 
+        //     node = minCostVertex(weight, node, vis);
+        //     vis[node] = true;
+        //     cost += weight[node];
+        //     exploreAllPaths(points, node, vis, weight);
+        // }
         return cost;
     }
 };
