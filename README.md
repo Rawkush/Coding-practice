@@ -13,6 +13,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/Rawkush/Coding-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0547-number-of-provinces](https://github.com/Rawkush/Coding-practice/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Rawkush/Coding-practice/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/Rawkush/Coding-practice/tree/master/0801-is-graph-bipartite) |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Rawkush/Coding-practice/tree/master/1042-flower-planting-with-no-adjacent) |
@@ -35,6 +36,7 @@
 | [0542-01-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Rawkush/Coding-practice/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Rawkush/Coding-practice/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/Rawkush/Coding-practice/tree/master/0801-is-graph-bipartite) |
 | [1036-rotting-oranges](https://github.com/Rawkush/Coding-practice/tree/master/1036-rotting-oranges) |
@@ -66,6 +68,7 @@
 | [0414-third-maximum-number](https://github.com/Rawkush/Coding-practice/tree/master/0414-third-maximum-number) |
 | [0542-01-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0542-01-matrix) |
 | [0621-task-scheduler](https://github.com/Rawkush/Coding-practice/tree/master/0621-task-scheduler) |
+| [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Rawkush/Coding-practice/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
@@ -82,6 +85,7 @@
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Rawkush/Coding-practice/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
@@ -220,6 +224,7 @@
 |  |
 | ------- |
 | [0684-redundant-connection](https://github.com/Rawkush/Coding-practice/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Rawkush/Coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Rawkush/Coding-practice/tree/master/1971-find-if-path-exists-in-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/Rawkush/Coding-practice/tree/master/2685-count-the-number-of-complete-components) |
