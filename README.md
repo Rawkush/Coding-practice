@@ -18,6 +18,7 @@
 | [1042-flower-planting-with-no-adjacent](https://github.com/Rawkush/Coding-practice/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Rawkush/Coding-practice/tree/master/1971-find-if-path-exists-in-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/Rawkush/Coding-practice/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
@@ -93,6 +94,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/Rawkush/Coding-practice/tree/master/0011-container-with-most-water) |
 | [0621-task-scheduler](https://github.com/Rawkush/Coding-practice/tree/master/0621-task-scheduler) |
+| [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -140,6 +142,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 ## Sorting
 |  |
 | ------- |
@@ -189,6 +192,7 @@
 | [0129-sum-root-to-leaf-numbers](https://github.com/Rawkush/Coding-practice/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/Rawkush/Coding-practice/tree/master/0199-binary-tree-right-side-view) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -199,6 +203,7 @@
 | [0129-sum-root-to-leaf-numbers](https://github.com/Rawkush/Coding-practice/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/Rawkush/Coding-practice/tree/master/0199-binary-tree-right-side-view) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 ## Graph Theory
 |  |
 | ------- |
@@ -219,4 +224,8 @@
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/Rawkush/Coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
+## Binary Search Tree
+|  |
+| ------- |
+| [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 <!---LeetCode Topics End-->
