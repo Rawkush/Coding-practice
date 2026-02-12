@@ -66,6 +66,7 @@
 | [0011-container-with-most-water](https://github.com/Rawkush/Coding-practice/tree/master/0011-container-with-most-water) |
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0221-maximal-square](https://github.com/Rawkush/Coding-practice/tree/master/0221-maximal-square) |
 | [0307-range-sum-query-mutable](https://github.com/Rawkush/Coding-practice/tree/master/0307-range-sum-query-mutable) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0414-third-maximum-number](https://github.com/Rawkush/Coding-practice/tree/master/0414-third-maximum-number) |
@@ -87,6 +88,7 @@
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
+| [0221-maximal-square](https://github.com/Rawkush/Coding-practice/tree/master/0221-maximal-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
@@ -109,6 +111,7 @@
 | ------- |
 | [0091-decode-ways](https://github.com/Rawkush/Coding-practice/tree/master/0091-decode-ways) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Rawkush/Coding-practice/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0221-maximal-square](https://github.com/Rawkush/Coding-practice/tree/master/0221-maximal-square) |
 | [0542-01-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0542-01-matrix) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Rawkush/Coding-practice/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [1395-count-number-of-teams](https://github.com/Rawkush/Coding-practice/tree/master/1395-count-number-of-teams) |
