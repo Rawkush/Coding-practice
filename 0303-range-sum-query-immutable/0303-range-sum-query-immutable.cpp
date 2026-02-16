@@ -1,19 +1,36 @@
 class NumArray {
 public:
-    vector<int> prefixSum;
+    vector<int> tree;
+    int n;
     NumArray(vector<int>& nums) {
-        int sum =0;
-        for(auto x: nums) {
-            sum+=x;
-            prefixSum.push_back(sum);
-        }
+        n = nums.size() -1;
+        if(n<0) return;
+        tree.resize(4*(n+1));
+        buildTree(nums, 0, n, 0);
     }
     
+    void buildTree(vector<int>&nums, int left, int right, int treeIdx) {
+        if(left == right) {
+            tree[treeIdx] = nums[left];
+            return;
+        }
+        int mid = (left + right) / 2;
+        buildTree(nums, left, mid, 2*treeIdx + 1);
+        buildTree(nums, mid+1, right, 2*treeIdx + 2);
+        tree[treeIdx] = tree[2*treeIdx + 2] + tree[2*treeIdx + 1];
+    }
+
+    int search(int ql, int qr, int tl, int tr, int treeIdx) {
+        if(tr < ql || qr < tl) return 0; // no overlap i.e out of range
+
+        if(tl >= ql && tr <= qr ) return tree[treeIdx]; // root node lies inside our search range
+
+        int mid = (tl + tr )/2;
+        return search(ql, qr, tl, mid, 2*treeIdx+1 ) + search(ql, qr, mid+1, tr, 2*treeIdx+2);
+    }
+
     int sumRange(int left, int right) {
-        if(left == 0) return prefixSum[right];
-        int sum_from_0_left = prefixSum[left-1]; // since range should include left as well so left-1
-        int sum_from_0_right = prefixSum[right];
-        return sum_from_0_right - sum_from_0_left;
+        return search(left, right , 0, n, 0);
     }
 };
 
