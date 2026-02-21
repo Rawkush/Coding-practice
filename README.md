@@ -73,6 +73,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0414-third-maximum-number](https://github.com/Rawkush/Coding-practice/tree/master/0414-third-maximum-number) |
 | [0542-01-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0542-01-matrix) |
+| [0561-array-partition](https://github.com/Rawkush/Coding-practice/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Rawkush/Coding-practice/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
@@ -106,6 +107,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Rawkush/Coding-practice/tree/master/0011-container-with-most-water) |
+| [0561-array-partition](https://github.com/Rawkush/Coding-practice/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Rawkush/Coding-practice/tree/master/0621-task-scheduler) |
 | [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 ## Dynamic Programming
@@ -170,6 +172,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0414-third-maximum-number](https://github.com/Rawkush/Coding-practice/tree/master/0414-third-maximum-number) |
+| [0561-array-partition](https://github.com/Rawkush/Coding-practice/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Rawkush/Coding-practice/tree/master/0621-task-scheduler) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [3430-count-days-without-meetings](https://github.com/Rawkush/Coding-practice/tree/master/3430-count-days-without-meetings) |
@@ -271,4 +274,8 @@
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/Rawkush/Coding-practice/tree/master/0307-range-sum-query-mutable) |
 | [1395-count-number-of-teams](https://github.com/Rawkush/Coding-practice/tree/master/1395-count-number-of-teams) |
+## Counting Sort
+|  |
+| ------- |
+| [0561-array-partition](https://github.com/Rawkush/Coding-practice/tree/master/0561-array-partition) |
 <!---LeetCode Topics End-->
