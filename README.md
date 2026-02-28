@@ -290,4 +290,5 @@
 | ------- |
 | [0136-single-number](https://github.com/Rawkush/Coding-practice/tree/master/0136-single-number) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Rawkush/Coding-practice/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [2220-minimum-bit-flips-to-convert-number](https://github.com/Rawkush/Coding-practice/tree/master/2220-minimum-bit-flips-to-convert-number) |
 <!---LeetCode Topics End-->
