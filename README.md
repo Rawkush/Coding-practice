@@ -145,6 +145,7 @@
 | [0126-word-ladder-ii](https://github.com/Rawkush/Coding-practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Rawkush/Coding-practice/tree/master/0127-word-ladder) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Rawkush/Coding-practice/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Rawkush/Coding-practice/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
 ## Backtracking
