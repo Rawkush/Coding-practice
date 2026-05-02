@@ -70,6 +70,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/Rawkush/Coding-practice/tree/master/0011-container-with-most-water) |
 | [0053-maximum-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0053-maximum-subarray) |
+| [0056-merge-intervals](https://github.com/Rawkush/Coding-practice/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/Rawkush/Coding-practice/tree/master/0078-subsets) |
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/Rawkush/Coding-practice/tree/master/0136-single-number) |
@@ -190,6 +191,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/Rawkush/Coding-practice/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0414-third-maximum-number](https://github.com/Rawkush/Coding-practice/tree/master/0414-third-maximum-number) |
