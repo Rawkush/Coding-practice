@@ -23,6 +23,7 @@
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/Rawkush/Coding-practice/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Rawkush/Coding-practice/tree/master/1971-find-if-path-exists-in-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/Rawkush/Coding-practice/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
@@ -48,6 +49,7 @@
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/Rawkush/Coding-practice/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Rawkush/Coding-practice/tree/master/1971-find-if-path-exists-in-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/Rawkush/Coding-practice/tree/master/2685-count-the-number-of-complete-components) |
 ## Union Find
@@ -87,6 +89,7 @@
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Rawkush/Coding-practice/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1395-count-number-of-teams](https://github.com/Rawkush/Coding-practice/tree/master/1395-count-number-of-teams) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/Rawkush/Coding-practice/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Rawkush/Coding-practice/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Rawkush/Coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
 | [1755-defuse-the-bomb](https://github.com/Rawkush/Coding-practice/tree/master/1755-defuse-the-bomb) |
@@ -109,6 +112,7 @@
 | [1036-rotting-oranges](https://github.com/Rawkush/Coding-practice/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/Rawkush/Coding-practice/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Rawkush/Coding-practice/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/3742-maximum-path-score-in-a-grid) |
@@ -270,6 +274,7 @@
 | [0684-redundant-connection](https://github.com/Rawkush/Coding-practice/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/Rawkush/Coding-practice/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Rawkush/Coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Rawkush/Coding-practice/tree/master/1971-find-if-path-exists-in-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/Rawkush/Coding-practice/tree/master/2685-count-the-number-of-complete-components) |
