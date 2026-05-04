@@ -75,6 +75,7 @@
 | [0078-subsets](https://github.com/Rawkush/Coding-practice/tree/master/0078-subsets) |
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/Rawkush/Coding-practice/tree/master/0136-single-number) |
+| [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/Rawkush/Coding-practice/tree/master/0221-maximal-square) |
 | [0303-range-sum-query-immutable](https://github.com/Rawkush/Coding-practice/tree/master/0303-range-sum-query-immutable) |
@@ -323,10 +324,19 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Rawkush/Coding-practice/tree/master/0048-rotate-image) |
+| [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
 | [0788-rotated-digits](https://github.com/Rawkush/Coding-practice/tree/master/0788-rotated-digits) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 ## String Matching
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/Rawkush/Coding-practice/tree/master/0796-rotate-string) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
