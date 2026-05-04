@@ -1,18 +1,23 @@
 class Solution {
 public:
-
+    void fillCache(int k, int n, vector<int>&cache) {
+        for(int i=2; i*k<=n; i++) {
+            cache[i*k] = 0;
+        }
+    }
     int countPrimes(int n) {
-        vector<bool> primeCache(n, true); //assume be default all are prime
-        if(n==0) return 0;
-        primeCache[0] = primeCache[1] = false;
-
+        vector<int> primeCache(n+1, -1);
+        int count =0;
         for(int i=2; i<n; i++) {
-            if(primeCache[i]) {
-                for(int j=2; i*j<n; j++) {
-                    primeCache[i*j] = false;
-                }
+            if(primeCache[i]==-1) {
+                fillCache(i,n, primeCache);
             }
         }
-        return count(primeCache.begin(), primeCache.end(), true);
+        for(int i=2; i<n; i++) {
+            if(primeCache[i] == -1) {
+                count++;
+            }
+        }
+        return count;
     }
 };
