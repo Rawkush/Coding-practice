@@ -69,6 +69,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Rawkush/Coding-practice/tree/master/0011-container-with-most-water) |
+| [0048-rotate-image](https://github.com/Rawkush/Coding-practice/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Rawkush/Coding-practice/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/Rawkush/Coding-practice/tree/master/0078-subsets) |
@@ -104,6 +105,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Rawkush/Coding-practice/tree/master/0048-rotate-image) |
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
 | [0221-maximal-square](https://github.com/Rawkush/Coding-practice/tree/master/0221-maximal-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -320,6 +322,7 @@
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Rawkush/Coding-practice/tree/master/0048-rotate-image) |
 | [0788-rotated-digits](https://github.com/Rawkush/Coding-practice/tree/master/0788-rotated-digits) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 ## String Matching
