@@ -8,29 +8,32 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-#define debug(x) cout<<#x<<" "<<x<<endl;
-#define debugL(x) cout<<#x<<" "<<x->val<<endl;
 class Solution {
 public:
+    ListNode* rotateRight(ListNode* head, int k) {
+        if(!head) return head;
+        ListNode* lastPtr=head;
+        ListNode* kthPtr = head;
+        int len = 0;
+        while(lastPtr!=NULL) {
+            len++;
+            lastPtr = lastPtr->next;
+        }
 
-  ListNode* rotateRight(ListNode* head, int k) {
-    if(!head) return head;
-    ListNode *itr1 = head;
-    int len =1;
-    while(itr1 && itr1->next){
-      itr1 = itr1->next;
-      len++;
+        int r = k%len; //actual roation of keys needed
+        lastPtr = head;
+        for(int i=0; i<r; i++) {
+            lastPtr = lastPtr->next;
+        }
+        while(lastPtr->next!=NULL) {
+            lastPtr = lastPtr->next;
+            kthPtr = kthPtr->next;
+        }
+
+        lastPtr->next = head;
+        head = kthPtr->next;
+        kthPtr->next=NULL;
+
+        return head;
     }
-    int r = k%len;
-    if(r == len) return head; 
-    itr1->next = head;
-    itr1= head;
-    for(int i=1; i < len-r; i++){
-      itr1 = itr1->next; 
-    } 
-
-    head = itr1->next;
-    itr1->next =NULL;
-    return head;
-  }
 };
