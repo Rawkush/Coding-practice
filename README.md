@@ -104,6 +104,7 @@
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Rawkush/Coding-practice/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3430-count-days-without-meetings](https://github.com/Rawkush/Coding-practice/tree/master/3430-count-days-without-meetings) |
 | [3634-minimum-removals-to-balance-array](https://github.com/Rawkush/Coding-practice/tree/master/3634-minimum-removals-to-balance-array) |
+| [3660-jump-game-ix](https://github.com/Rawkush/Coding-practice/tree/master/3660-jump-game-ix) |
 | [3719-longest-balanced-subarray-i](https://github.com/Rawkush/Coding-practice/tree/master/3719-longest-balanced-subarray-i) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Matrix
@@ -150,6 +151,7 @@
 | [0788-rotated-digits](https://github.com/Rawkush/Coding-practice/tree/master/0788-rotated-digits) |
 | [1395-count-number-of-teams](https://github.com/Rawkush/Coding-practice/tree/master/1395-count-number-of-teams) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Rawkush/Coding-practice/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
+| [3660-jump-game-ix](https://github.com/Rawkush/Coding-practice/tree/master/3660-jump-game-ix) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Hash Table
 |  |
