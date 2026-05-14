@@ -1,15 +1,17 @@
 class Solution {
 public:
     bool isGood(vector<int>& nums) {
-        if(nums.size()==1) {
-            return false;
+        int mx=INT_MIN;
+        for(int i=0; i<nums.size(); i++) {
+            mx= max(mx, nums[i]);
         }
-        sort(nums.begin(), nums.end());
-        for(int i=0; i<nums.size()-2; i++) {
-            if(i+1!=nums[i]) return false;
+        if(mx != nums.size()-1) return false;
+        vector<int>mp(nums.size(), 0);
+        for(int i=0; i<nums.size(); i++) {
+            mp[nums[i]]++;
+            if(nums[i]!=mx && mp[nums[i]]>1) return false;
+            if(mp[nums[i]] > 2) return false;
         }
-        int n = nums.size()-1;
-        // cout<<nums[n]<<" "<<cout<<nums[n-1];
-        return nums[n]==nums[n-1] && nums[n] == n;
+        return true;
     }
 };
