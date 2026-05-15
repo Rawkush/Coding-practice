@@ -9,7 +9,7 @@ public:
             if(nums[l]  > nums[mid]) {
                 r = mid;
             }else if(nums[mid] > nums[r]) {
-                l = l==mid?mid+1 : mid;
+                l =mid+1;
             }else {
                 //whole array is sorted 
                 break;
