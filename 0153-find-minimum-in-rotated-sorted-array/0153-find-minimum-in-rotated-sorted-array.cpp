@@ -1,22 +1,20 @@
 class Solution {
 public:
     int findMin(vector<int>& nums) {
-      int left = 0;
-      int right =nums.size()-1;
-      int n = nums.size();
-      while(left<right){
-        int mid = left + (right -left)/2;
-        int prev = (mid+n-1)%n;
-        int next = (mid+1)%n;
-        if(nums[mid]<nums[prev] && nums[mid]<nums[next]){
-          return nums[mid];
+        int l =0, r= nums.size()-1;
+        int si =0;
+        while(r>l) {
+            int mid = (l+r)/2;
+            cout<< l<<" "<<r<<" "<<mid<<endl;
+            if(nums[l]  > nums[mid]) {
+                r = mid;
+            }else if(nums[mid] > nums[r]) {
+                l = l==mid?mid+1 : mid;
+            }else {
+                //whole array is sorted 
+                break;
+            }
         }
-        else if(nums[mid]<nums[right]){
-          right =mid-1;
-        }else{
-          left= mid+1;
-        }
-      }
-      return nums[left];
+        return nums[l];
     }
 };
