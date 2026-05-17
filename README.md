@@ -79,6 +79,7 @@
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/Rawkush/Coding-practice/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Rawkush/Coding-practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Rawkush/Coding-practice/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/Rawkush/Coding-practice/tree/master/0221-maximal-square) |
@@ -240,6 +241,7 @@
 | ------- |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Rawkush/Coding-practice/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Rawkush/Coding-practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Rawkush/Coding-practice/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 ## Counting
 |  |
