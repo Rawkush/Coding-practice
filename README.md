@@ -52,6 +52,7 @@
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1306-jump-game-iii](https://github.com/Rawkush/Coding-practice/tree/master/1306-jump-game-iii) |
+| [1345-jump-game-iv](https://github.com/Rawkush/Coding-practice/tree/master/1345-jump-game-iv) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Rawkush/Coding-practice/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Rawkush/Coding-practice/tree/master/1971-find-if-path-exists-in-graph) |
@@ -97,6 +98,7 @@
 | [1036-rotting-oranges](https://github.com/Rawkush/Coding-practice/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
 | [1306-jump-game-iii](https://github.com/Rawkush/Coding-practice/tree/master/1306-jump-game-iii) |
+| [1345-jump-game-iv](https://github.com/Rawkush/Coding-practice/tree/master/1345-jump-game-iv) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Rawkush/Coding-practice/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1395-count-number-of-teams](https://github.com/Rawkush/Coding-practice/tree/master/1395-count-number-of-teams) |
@@ -172,6 +174,7 @@
 | [0621-task-scheduler](https://github.com/Rawkush/Coding-practice/tree/master/0621-task-scheduler) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1345-jump-game-iv](https://github.com/Rawkush/Coding-practice/tree/master/1345-jump-game-iv) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2784-check-if-array-is-good](https://github.com/Rawkush/Coding-practice/tree/master/2784-check-if-array-is-good) |
 | [3719-longest-balanced-subarray-i](https://github.com/Rawkush/Coding-practice/tree/master/3719-longest-balanced-subarray-i) |
