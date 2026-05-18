@@ -22,6 +22,7 @@
 | [1042-flower-planting-with-no-adjacent](https://github.com/Rawkush/Coding-practice/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1306-jump-game-iii](https://github.com/Rawkush/Coding-practice/tree/master/1306-jump-game-iii) |
 | [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Rawkush/Coding-practice/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -50,6 +51,7 @@
 | [1042-flower-planting-with-no-adjacent](https://github.com/Rawkush/Coding-practice/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1306-jump-game-iii](https://github.com/Rawkush/Coding-practice/tree/master/1306-jump-game-iii) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Rawkush/Coding-practice/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Rawkush/Coding-practice/tree/master/1971-find-if-path-exists-in-graph) |
@@ -94,6 +96,7 @@
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Rawkush/Coding-practice/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
+| [1306-jump-game-iii](https://github.com/Rawkush/Coding-practice/tree/master/1306-jump-game-iii) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Rawkush/Coding-practice/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1395-count-number-of-teams](https://github.com/Rawkush/Coding-practice/tree/master/1395-count-number-of-teams) |
