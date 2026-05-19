@@ -110,6 +110,7 @@
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
+| [2540-minimum-common-value](https://github.com/Rawkush/Coding-practice/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/2553-separate-the-digits-in-an-array) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Rawkush/Coding-practice/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2784-check-if-array-is-good](https://github.com/Rawkush/Coding-practice/tree/master/2784-check-if-array-is-good) |
@@ -143,6 +144,7 @@
 | [0061-rotate-list](https://github.com/Rawkush/Coding-practice/tree/master/0061-rotate-list) |
 | [1861-rotating-the-box](https://github.com/Rawkush/Coding-practice/tree/master/1861-rotating-the-box) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
+| [2540-minimum-common-value](https://github.com/Rawkush/Coding-practice/tree/master/2540-minimum-common-value) |
 ## Greedy
 |  |
 | ------- |
@@ -176,6 +178,7 @@
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1345-jump-game-iv](https://github.com/Rawkush/Coding-practice/tree/master/1345-jump-game-iv) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2540-minimum-common-value](https://github.com/Rawkush/Coding-practice/tree/master/2540-minimum-common-value) |
 | [2784-check-if-array-is-good](https://github.com/Rawkush/Coding-practice/tree/master/2784-check-if-array-is-good) |
 | [3719-longest-balanced-subarray-i](https://github.com/Rawkush/Coding-practice/tree/master/3719-longest-balanced-subarray-i) |
 ## String
@@ -249,6 +252,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Rawkush/Coding-practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Rawkush/Coding-practice/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [2540-minimum-common-value](https://github.com/Rawkush/Coding-practice/tree/master/2540-minimum-common-value) |
 ## Counting
 |  |
 | ------- |
