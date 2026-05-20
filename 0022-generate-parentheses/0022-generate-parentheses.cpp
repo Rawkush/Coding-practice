@@ -2,7 +2,7 @@ class Solution {
 public:
     void helper(int l, int r, string p, vector<string>& res) {
         if(r>l) return; // now we cannot balance the string
-        if(l==0 && p!="") {
+        if(l==0) {
             res.push_back(p);
         }
         helper(l--, r+1, p+"(", res);
