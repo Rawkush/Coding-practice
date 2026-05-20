@@ -158,6 +158,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Rawkush/Coding-practice/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0053-maximum-subarray) |
 | [0091-decode-ways](https://github.com/Rawkush/Coding-practice/tree/master/0091-decode-ways) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Rawkush/Coding-practice/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -188,6 +189,7 @@
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Rawkush/Coding-practice/tree/master/0022-generate-parentheses) |
 | [0091-decode-ways](https://github.com/Rawkush/Coding-practice/tree/master/0091-decode-ways) |
 | [0126-word-ladder-ii](https://github.com/Rawkush/Coding-practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Rawkush/Coding-practice/tree/master/0127-word-ladder) |
@@ -199,6 +201,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Rawkush/Coding-practice/tree/master/0022-generate-parentheses) |
 | [0078-subsets](https://github.com/Rawkush/Coding-practice/tree/master/0078-subsets) |
 | [0126-word-ladder-ii](https://github.com/Rawkush/Coding-practice/tree/master/0126-word-ladder-ii) |
 ## Sliding Window
