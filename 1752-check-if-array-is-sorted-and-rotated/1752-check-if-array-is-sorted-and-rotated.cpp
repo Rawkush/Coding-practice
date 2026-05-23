@@ -12,13 +12,10 @@ public:
         }
         if(ri == -1) return true; // sorted array
         for(int i=ri+1; i<n-1; i++) {
-            if(nums[i] > nums[i+1]) return false;
-            if(nums[ri] < nums[i]) return false;
+            if(nums[i] > nums[i+1]) return false; // if not sorted then false
         }
         
-        if(nums[ri] < nums[n-1]) return false; // last element should ne less than ri
-        // if coming here it means above array is also sorted
-        // now just need to see if first min is should also be bigger than last
+        //since second part is sorted therefore at index ri there was roation, now confirm if left array is completely bigger than 2nd, since both are sorted we can use first index of first and last idx of second
         if(nums[0] < nums[n-1]) return false;
         return true;
     }
