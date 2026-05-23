@@ -108,6 +108,7 @@
 | [1559-detect-cycles-in-2d-grid](https://github.com/Rawkush/Coding-practice/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Rawkush/Coding-practice/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Rawkush/Coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/Rawkush/Coding-practice/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1755-defuse-the-bomb](https://github.com/Rawkush/Coding-practice/tree/master/1755-defuse-the-bomb) |
 | [1861-rotating-the-box](https://github.com/Rawkush/Coding-practice/tree/master/1861-rotating-the-box) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
