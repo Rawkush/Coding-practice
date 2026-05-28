@@ -99,6 +99,7 @@
 | [0621-task-scheduler](https://github.com/Rawkush/Coding-practice/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
+| [0918-maximum-sum-circular-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0918-maximum-sum-circular-subarray) |
 | [1036-rotting-oranges](https://github.com/Rawkush/Coding-practice/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
 | [1306-jump-game-iii](https://github.com/Rawkush/Coding-practice/tree/master/1306-jump-game-iii) |
@@ -171,6 +172,7 @@
 | [0542-01-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0542-01-matrix) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Rawkush/Coding-practice/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0788-rotated-digits](https://github.com/Rawkush/Coding-practice/tree/master/0788-rotated-digits) |
+| [0918-maximum-sum-circular-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0918-maximum-sum-circular-subarray) |
 | [1395-count-number-of-teams](https://github.com/Rawkush/Coding-practice/tree/master/1395-count-number-of-teams) |
 | [1531-string-compression-ii](https://github.com/Rawkush/Coding-practice/tree/master/1531-string-compression-ii) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Rawkush/Coding-practice/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
@@ -240,6 +242,7 @@
 | [0053-maximum-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0307-range-sum-query-mutable](https://github.com/Rawkush/Coding-practice/tree/master/0307-range-sum-query-mutable) |
+| [0918-maximum-sum-circular-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0918-maximum-sum-circular-subarray) |
 | [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 | [3719-longest-balanced-subarray-i](https://github.com/Rawkush/Coding-practice/tree/master/3719-longest-balanced-subarray-i) |
 ## Sorting
@@ -403,4 +406,12 @@
 |  |
 | ------- |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Rawkush/Coding-practice/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+## Queue
+|  |
+| ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0918-maximum-sum-circular-subarray) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0918-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
