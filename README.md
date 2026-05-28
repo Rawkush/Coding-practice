@@ -176,6 +176,7 @@
 | [0918-maximum-sum-circular-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0918-maximum-sum-circular-subarray) |
 | [1395-count-number-of-teams](https://github.com/Rawkush/Coding-practice/tree/master/1395-count-number-of-teams) |
 | [1531-string-compression-ii](https://github.com/Rawkush/Coding-practice/tree/master/1531-string-compression-ii) |
+| [1871-jump-game-vii](https://github.com/Rawkush/Coding-practice/tree/master/1871-jump-game-vii) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Rawkush/Coding-practice/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3660-jump-game-ix](https://github.com/Rawkush/Coding-practice/tree/master/3660-jump-game-ix) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/3742-maximum-path-score-in-a-grid) |
@@ -211,6 +212,7 @@
 | [0796-rotate-string](https://github.com/Rawkush/Coding-practice/tree/master/0796-rotate-string) |
 | [1531-string-compression-ii](https://github.com/Rawkush/Coding-practice/tree/master/1531-string-compression-ii) |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Rawkush/Coding-practice/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
+| [1871-jump-game-vii](https://github.com/Rawkush/Coding-practice/tree/master/1871-jump-game-vii) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Rawkush/Coding-practice/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
@@ -228,6 +230,7 @@
 |  |
 | ------- |
 | [1755-defuse-the-bomb](https://github.com/Rawkush/Coding-practice/tree/master/1755-defuse-the-bomb) |
+| [1871-jump-game-vii](https://github.com/Rawkush/Coding-practice/tree/master/1871-jump-game-vii) |
 | [3634-minimum-removals-to-balance-array](https://github.com/Rawkush/Coding-practice/tree/master/3634-minimum-removals-to-balance-array) |
 ## Simulation
 |  |
@@ -369,6 +372,7 @@
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Rawkush/Coding-practice/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/Rawkush/Coding-practice/tree/master/0560-subarray-sum-equals-k) |
+| [1871-jump-game-vii](https://github.com/Rawkush/Coding-practice/tree/master/1871-jump-game-vii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Rawkush/Coding-practice/tree/master/3719-longest-balanced-subarray-i) |
 ## Binary Indexed Tree
 |  |
