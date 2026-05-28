@@ -15,12 +15,10 @@ public:
             char c = word[i];
             int ascii = (int) c;
             if(ascii<97 || mp[c-'a']==-1) continue;
-            if(i > mp[c-'a']) {
-                mp[c-'a'] =-1;
-            } else {
+            if(i < mp[c-'a']) {
                 count++;
-                mp[c-'a'] =-1;
             }
+            mp[c-'a'] =-1;
         }
 
         return count;
