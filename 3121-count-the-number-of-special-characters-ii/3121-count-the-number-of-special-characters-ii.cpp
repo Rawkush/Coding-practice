@@ -11,26 +11,18 @@ public:
             }
         }
 
-        // -1 is not processed, 1 it is special char, 0 it is not 
-        vector<int> sp(26, -1);
-        
-        for(int i=0; i<word.size(); i++) {
+        for(int i=word.size()-1; i>=0; i--) {
             char c = word[i];
             int ascii = (int) c;
-            if(ascii < 97 || mp[c-'a'] == -1) continue;
-            // if it exists then
-            if(mp[c-'a'] > i) {
-                if(sp[c-'a']==-1) {
-                    sp[c-'a'] = 1;
-                    count++;
-                }                
+            if(ascii<97 || mp[c-'a']==-1) continue;
+            if(i > mp[c-'a']) {
+                mp[c-'a'] =-1;
             } else {
-               if(sp[c-'a']==1) {
-                    count--;
-                    sp[c-'a'] = 0;
-               } 
+                count++;
+                mp[c-'a'] =-1;
             }
         }
+
         return count;
     }
 };
