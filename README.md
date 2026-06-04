@@ -186,6 +186,7 @@
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Rawkush/Coding-practice/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3660-jump-game-ix](https://github.com/Rawkush/Coding-practice/tree/master/3660-jump-game-ix) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/3742-maximum-path-score-in-a-grid) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/Rawkush/Coding-practice/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -414,6 +415,7 @@
 | [0788-rotated-digits](https://github.com/Rawkush/Coding-practice/tree/master/0788-rotated-digits) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Rawkush/Coding-practice/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/Rawkush/Coding-practice/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## String Matching
 |  |
 | ------- |
@@ -422,6 +424,7 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/Rawkush/Coding-practice/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Number Theory
 |  |
 | ------- |
