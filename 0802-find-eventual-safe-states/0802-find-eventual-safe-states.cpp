@@ -19,11 +19,9 @@ public:
         vector<int> safeNodes(graph.size(), -1);
 
         for(int i=0; i<graph.size(); i++) {
-            if(safeNodes[i]==1) res.push_back(i);
-            else if(isSafeNode(graph, vis, i, safeNodes )) {
-               safeNodes[i] = 1;
+            if(isSafeNode(graph, vis, i, safeNodes )) {
                res.push_back(i);
-            } else safeNodes[i] = 0; // unsafe node
+            }
         }
         return res;
     }
