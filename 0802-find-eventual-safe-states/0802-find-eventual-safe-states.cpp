@@ -3,18 +3,14 @@ public:
     bool isSafeNode(vector<vector<int>>& graph, vector<int> &vis, int n,  vector<int> &safeNodes) {
         if(safeNodes[n]!=-1) return safeNodes[n] ==1;
         if(graph[n].size()==0) return true;
+        if(vis[n]) return false;
+        vis[n] =1;
         for(auto x:graph[n]) {
-            if(vis[x]) {
-                safeNodes[x] = 0;
-                return false;
-            }
-            vis[x] =1;
             if(!isSafeNode(graph,vis, x, safeNodes )) {
-                vis[x] = 0;
                 return safeNodes[x] =false;
             }
-            vis[x] =0;
         }
+        vis[n] =0;
         return safeNodes[n]=true;
     }
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
