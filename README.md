@@ -18,6 +18,7 @@
 | [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/Rawkush/Coding-practice/tree/master/0801-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/Rawkush/Coding-practice/tree/master/0802-find-eventual-safe-states) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Rawkush/Coding-practice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Rawkush/Coding-practice/tree/master/1042-flower-planting-with-no-adjacent) |
@@ -48,6 +49,7 @@
 | [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/Rawkush/Coding-practice/tree/master/0801-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/Rawkush/Coding-practice/tree/master/0802-find-eventual-safe-states) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Rawkush/Coding-practice/tree/master/1036-rotting-oranges) |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Rawkush/Coding-practice/tree/master/1042-flower-planting-with-no-adjacent) |
@@ -253,6 +255,7 @@
 | ------- |
 | [0207-course-schedule](https://github.com/Rawkush/Coding-practice/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Rawkush/Coding-practice/tree/master/0210-course-schedule-ii) |
+| [0802-find-eventual-safe-states](https://github.com/Rawkush/Coding-practice/tree/master/0802-find-eventual-safe-states) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Divide and Conquer
 |  |
@@ -356,6 +359,7 @@
 | [0207-course-schedule](https://github.com/Rawkush/Coding-practice/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Rawkush/Coding-practice/tree/master/0210-course-schedule-ii) |
 | [0684-redundant-connection](https://github.com/Rawkush/Coding-practice/tree/master/0684-redundant-connection) |
+| [0802-find-eventual-safe-states](https://github.com/Rawkush/Coding-practice/tree/master/0802-find-eventual-safe-states) |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Rawkush/Coding-practice/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Rawkush/Coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Rawkush/Coding-practice/tree/master/1971-find-if-path-exists-in-graph) |
