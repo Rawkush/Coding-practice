@@ -9,14 +9,14 @@ public:
             if(mp.count(t)<=0) {
                 ans++;
             } 
-            else if((long long)i+idxOffset>=mp[t]){ 
+            else if(i+idxOffset>=mp[t]){ 
                 ans++;
             }
             else {
-                ans += (long long)mp[t] - (long long)(i + idxOffset) + 1;
-                idxOffset += (long long) mp[t] - (long long)(i + idxOffset);
+                ans += mp[t] - (i + idxOffset) + 1;
+                idxOffset += mp[t] - (i + idxOffset);
             }
-            mp[t] = (long long)i+space+1+idxOffset;
+            mp[t] = i+space+1+idxOffset;
         }
         return ans;
     }
