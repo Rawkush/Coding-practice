@@ -121,6 +121,7 @@
 | [2196-create-binary-tree-from-descriptions](https://github.com/Rawkush/Coding-practice/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
+| [2365-task-scheduler-ii](https://github.com/Rawkush/Coding-practice/tree/master/2365-task-scheduler-ii) |
 | [2540-minimum-common-value](https://github.com/Rawkush/Coding-practice/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/2553-separate-the-digits-in-an-array) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Rawkush/Coding-practice/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
@@ -207,6 +208,7 @@
 | [1345-jump-game-iv](https://github.com/Rawkush/Coding-practice/tree/master/1345-jump-game-iv) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Rawkush/Coding-practice/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2365-task-scheduler-ii](https://github.com/Rawkush/Coding-practice/tree/master/2365-task-scheduler-ii) |
 | [2540-minimum-common-value](https://github.com/Rawkush/Coding-practice/tree/master/2540-minimum-common-value) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Rawkush/Coding-practice/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2784-check-if-array-is-good](https://github.com/Rawkush/Coding-practice/tree/master/2784-check-if-array-is-good) |
@@ -251,6 +253,7 @@
 |  |
 | ------- |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
+| [2365-task-scheduler-ii](https://github.com/Rawkush/Coding-practice/tree/master/2365-task-scheduler-ii) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/2553-separate-the-digits-in-an-array) |
 ## Topological Sort
 |  |
