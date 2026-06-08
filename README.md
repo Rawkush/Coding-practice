@@ -118,6 +118,7 @@
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2126-destroying-asteroids](https://github.com/Rawkush/Coding-practice/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Rawkush/Coding-practice/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Rawkush/Coding-practice/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
 | [2540-minimum-common-value](https://github.com/Rawkush/Coding-practice/tree/master/2540-minimum-common-value) |
@@ -204,6 +205,7 @@
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1345-jump-game-iv](https://github.com/Rawkush/Coding-practice/tree/master/1345-jump-game-iv) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Rawkush/Coding-practice/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2540-minimum-common-value](https://github.com/Rawkush/Coding-practice/tree/master/2540-minimum-common-value) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Rawkush/Coding-practice/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
@@ -339,6 +341,7 @@
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Rawkush/Coding-practice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Rawkush/Coding-practice/tree/master/2196-create-binary-tree-from-descriptions) |
 ## Binary Tree
 |  |
 | ------- |
@@ -352,6 +355,7 @@
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Rawkush/Coding-practice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Rawkush/Coding-practice/tree/master/2196-create-binary-tree-from-descriptions) |
 ## Graph Theory
 |  |
 | ------- |
