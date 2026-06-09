@@ -118,6 +118,7 @@
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2126-destroying-asteroids](https://github.com/Rawkush/Coding-practice/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Rawkush/Coding-practice/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/Rawkush/Coding-practice/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Rawkush/Coding-practice/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
@@ -161,6 +162,7 @@
 | [0061-rotate-list](https://github.com/Rawkush/Coding-practice/tree/master/0061-rotate-list) |
 | [0443-string-compression](https://github.com/Rawkush/Coding-practice/tree/master/0443-string-compression) |
 | [1861-rotating-the-box](https://github.com/Rawkush/Coding-practice/tree/master/1861-rotating-the-box) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/Rawkush/Coding-practice/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
 | [2540-minimum-common-value](https://github.com/Rawkush/Coding-practice/tree/master/2540-minimum-common-value) |
 ## Greedy
@@ -252,6 +254,7 @@
 ## Simulation
 |  |
 | ------- |
+| [2161-partition-array-according-to-given-pivot](https://github.com/Rawkush/Coding-practice/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
 | [2365-task-scheduler-ii](https://github.com/Rawkush/Coding-practice/tree/master/2365-task-scheduler-ii) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/2553-separate-the-digits-in-an-array) |
