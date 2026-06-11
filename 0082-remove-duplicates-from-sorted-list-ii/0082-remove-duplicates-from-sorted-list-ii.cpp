@@ -10,48 +10,38 @@
  */
 class Solution {
 public:
-  void print(ListNode* head){
-    while(head){
-      cout<<head->val<<" ";
-      head=head->next;
-    }
-    cout<<endl;
-  }
-  ListNode* deleteDuplicates(ListNode* head) {
-    if(!head || !head->next) return head;
-    ListNode* newHead = NULL;
-    ListNode* tail = NULL;
-    int prev= -111;
-    while(head && head->next){
-     if(prev ==-111 && head->val ==head->next->val){
-       prev = head->val;
-       continue;
-     }
-     ListNode *next = head->next;
-      // cout<<prev<<" : "<<head->val<<" : "<<head->next->val<<endl;
-      if(head->val!=prev && head->val!=next->val){
-        if(!newHead){
-          newHead = head;
-          tail =  head;
-        }else{
-           tail->next = head;
-           tail= tail->next;
+
+    ListNode* deleteDuplicates(ListNode* head) {
+        if(!head || head->next == NULL) return head; //NULL or one item
+
+        //if starting items are deplicate keep rmoveing them
+        ListNode *tmpHead = head->next;
+        //Delete head
+        while(tmpHead && tmpHead->val == head->val) {
+            tmpHead = tmpHead->next;
+            if(tmpHead == NULL) return NULL; // all same items
+
+            if(tmpHead->val != head->val) {
+                //now we have a node this we need so 
+                head = tmpHead;
+                tmpHead = tmpHead->next;
+            }
         }
-        // prev = head->val;
-        head->next=NULL;
-        // print(newHead);
-        // cout<<head->val<<" ";
-      }
-      prev = head->val;
-      head= next;
-    }  
-    if( head && head->val!=prev){
-      if(!newHead){
-        newHead = head;
-        tail= head;
-      }else   tail->next = head;
+        // after this all duplicate items from head should be removed
+        ListNode *prev = head;
+        ListNode *curr = head->next;
+        while(curr) {
+            bool isDuplicate = false;
+            while(curr->next && curr->next->val == curr->val) {
+                curr=curr->next;
+                isDuplicate =true;
+            }
+            if(isDuplicate) {
+                prev->next = curr->next;
+            } else prev = prev->next;
+            curr = curr->next;
+        }
+        // prev->next = curr;
+        return head;
     }
-    
-    return newHead;
-  }
 };
