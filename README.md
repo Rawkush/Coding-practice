@@ -13,6 +13,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/Rawkush/Coding-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Rawkush/Coding-practice/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Rawkush/Coding-practice/tree/master/0210-course-schedule-ii) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Rawkush/Coding-practice/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Rawkush/Coding-practice/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
@@ -355,6 +356,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/Rawkush/Coding-practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Rawkush/Coding-practice/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/Rawkush/Coding-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Rawkush/Coding-practice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -371,6 +373,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/Rawkush/Coding-practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Rawkush/Coding-practice/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/Rawkush/Coding-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Rawkush/Coding-practice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Rawkush/Coding-practice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
