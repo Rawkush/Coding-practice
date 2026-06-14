@@ -167,6 +167,7 @@
 | [0148-sort-list](https://github.com/Rawkush/Coding-practice/tree/master/0148-sort-list) |
 | [0443-string-compression](https://github.com/Rawkush/Coding-practice/tree/master/0443-string-compression) |
 | [1861-rotating-the-box](https://github.com/Rawkush/Coding-practice/tree/master/1861-rotating-the-box) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Rawkush/Coding-practice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Rawkush/Coding-practice/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
 | [2540-minimum-common-value](https://github.com/Rawkush/Coding-practice/tree/master/2540-minimum-common-value) |
@@ -337,6 +338,7 @@
 | [0148-sort-list](https://github.com/Rawkush/Coding-practice/tree/master/0148-sort-list) |
 | [0355-design-twitter](https://github.com/Rawkush/Coding-practice/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Rawkush/Coding-practice/tree/master/0460-lfu-cache) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Rawkush/Coding-practice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Design
 |  |
 | ------- |
@@ -486,6 +488,7 @@
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/Rawkush/Coding-practice/tree/master/0678-valid-parenthesis-string) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Rawkush/Coding-practice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Merge Sort
 |  |
 | ------- |
