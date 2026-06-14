@@ -32,6 +32,7 @@
 | [1971-find-if-path-exists-in-graph](https://github.com/Rawkush/Coding-practice/tree/master/1971-find-if-path-exists-in-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/Rawkush/Coding-practice/tree/master/2685-count-the-number-of-complete-components) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Rawkush/Coding-practice/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Rawkush/Coding-practice/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -135,6 +136,7 @@
 | [3161-block-placement-queries](https://github.com/Rawkush/Coding-practice/tree/master/3161-block-placement-queries) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Rawkush/Coding-practice/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3430-count-days-without-meetings](https://github.com/Rawkush/Coding-practice/tree/master/3430-count-days-without-meetings) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Rawkush/Coding-practice/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3634-minimum-removals-to-balance-array](https://github.com/Rawkush/Coding-practice/tree/master/3634-minimum-removals-to-balance-array) |
 | [3660-jump-game-ix](https://github.com/Rawkush/Coding-practice/tree/master/3660-jump-game-ix) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Rawkush/Coding-practice/tree/master/3689-maximum-total-subarray-value-i) |
@@ -199,6 +201,7 @@
 | [1531-string-compression-ii](https://github.com/Rawkush/Coding-practice/tree/master/1531-string-compression-ii) |
 | [1871-jump-game-vii](https://github.com/Rawkush/Coding-practice/tree/master/1871-jump-game-vii) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Rawkush/Coding-practice/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Rawkush/Coding-practice/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3660-jump-game-ix](https://github.com/Rawkush/Coding-practice/tree/master/3660-jump-game-ix) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Rawkush/Coding-practice/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -369,6 +372,7 @@
 | [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Rawkush/Coding-practice/tree/master/2196-create-binary-tree-from-descriptions) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Rawkush/Coding-practice/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Rawkush/Coding-practice/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Binary Tree
 |  |
 | ------- |
@@ -448,6 +452,7 @@
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Rawkush/Coding-practice/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/Rawkush/Coding-practice/tree/master/2220-minimum-bit-flips-to-convert-number) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Rawkush/Coding-practice/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Rawkush/Coding-practice/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Math
 |  |
 | ------- |
@@ -457,6 +462,7 @@
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Rawkush/Coding-practice/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Rawkush/Coding-practice/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Rawkush/Coding-practice/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Rawkush/Coding-practice/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## String Matching
 |  |
