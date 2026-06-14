@@ -164,6 +164,7 @@
 | [0011-container-with-most-water](https://github.com/Rawkush/Coding-practice/tree/master/0011-container-with-most-water) |
 | [0061-rotate-list](https://github.com/Rawkush/Coding-practice/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Rawkush/Coding-practice/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
+| [0148-sort-list](https://github.com/Rawkush/Coding-practice/tree/master/0148-sort-list) |
 | [0443-string-compression](https://github.com/Rawkush/Coding-practice/tree/master/0443-string-compression) |
 | [1861-rotating-the-box](https://github.com/Rawkush/Coding-practice/tree/master/1861-rotating-the-box) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Rawkush/Coding-practice/tree/master/2161-partition-array-according-to-given-pivot) |
@@ -276,6 +277,7 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0053-maximum-subarray) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0148-sort-list](https://github.com/Rawkush/Coding-practice/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0307-range-sum-query-mutable](https://github.com/Rawkush/Coding-practice/tree/master/0307-range-sum-query-mutable) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0918-maximum-sum-circular-subarray) |
@@ -285,6 +287,7 @@
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Rawkush/Coding-practice/tree/master/0056-merge-intervals) |
+| [0148-sort-list](https://github.com/Rawkush/Coding-practice/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0414-third-maximum-number](https://github.com/Rawkush/Coding-practice/tree/master/0414-third-maximum-number) |
@@ -331,6 +334,7 @@
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Rawkush/Coding-practice/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0146-lru-cache](https://github.com/Rawkush/Coding-practice/tree/master/0146-lru-cache) |
+| [0148-sort-list](https://github.com/Rawkush/Coding-practice/tree/master/0148-sort-list) |
 | [0355-design-twitter](https://github.com/Rawkush/Coding-practice/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Rawkush/Coding-practice/tree/master/0460-lfu-cache) |
 ## Design
@@ -482,4 +486,8 @@
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/Rawkush/Coding-practice/tree/master/0678-valid-parenthesis-string) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Rawkush/Coding-practice/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
