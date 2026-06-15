@@ -91,6 +91,7 @@
 | [0136-single-number](https://github.com/Rawkush/Coding-practice/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Rawkush/Coding-practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Rawkush/Coding-practice/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0189-rotate-array](https://github.com/Rawkush/Coding-practice/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/Rawkush/Coding-practice/tree/master/0221-maximal-square) |
@@ -167,6 +168,7 @@
 | [0061-rotate-list](https://github.com/Rawkush/Coding-practice/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Rawkush/Coding-practice/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0148-sort-list](https://github.com/Rawkush/Coding-practice/tree/master/0148-sort-list) |
+| [0189-rotate-array](https://github.com/Rawkush/Coding-practice/tree/master/0189-rotate-array) |
 | [0443-string-compression](https://github.com/Rawkush/Coding-practice/tree/master/0443-string-compression) |
 | [1861-rotating-the-box](https://github.com/Rawkush/Coding-practice/tree/master/1861-rotating-the-box) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Rawkush/Coding-practice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
@@ -457,6 +459,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Rawkush/Coding-practice/tree/master/0048-rotate-image) |
+| [0189-rotate-array](https://github.com/Rawkush/Coding-practice/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
 | [0788-rotated-digits](https://github.com/Rawkush/Coding-practice/tree/master/0788-rotated-digits) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
