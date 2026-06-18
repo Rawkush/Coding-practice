@@ -246,6 +246,7 @@
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Rawkush/Coding-practice/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0796-rotate-string](https://github.com/Rawkush/Coding-practice/tree/master/0796-rotate-string) |
 | [1531-string-compression-ii](https://github.com/Rawkush/Coding-practice/tree/master/1531-string-compression-ii) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/Rawkush/Coding-practice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Rawkush/Coding-practice/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1871-jump-game-vii](https://github.com/Rawkush/Coding-practice/tree/master/1871-jump-game-vii) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -271,6 +272,7 @@
 ## Simulation
 |  |
 | ------- |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/Rawkush/Coding-practice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Rawkush/Coding-practice/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
 | [2365-task-scheduler-ii](https://github.com/Rawkush/Coding-practice/tree/master/2365-task-scheduler-ii) |
@@ -514,4 +516,8 @@
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Rawkush/Coding-practice/tree/master/0084-largest-rectangle-in-histogram) |
+## Recursion
+|  |
+| ------- |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/Rawkush/Coding-practice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 <!---LeetCode Topics End-->
