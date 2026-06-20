@@ -257,6 +257,7 @@
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Rawkush/Coding-practice/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3163-string-compression-iii](https://github.com/Rawkush/Coding-practice/tree/master/3163-string-compression-iii) |
 | [3612-process-string-with-special-operations-i](https://github.com/Rawkush/Coding-practice/tree/master/3612-process-string-with-special-operations-i) |
+| [3614-process-string-with-special-operations-ii](https://github.com/Rawkush/Coding-practice/tree/master/3614-process-string-with-special-operations-ii) |
 ## Backtracking
 |  |
 | ------- |
@@ -278,6 +279,7 @@
 | [2365-task-scheduler-ii](https://github.com/Rawkush/Coding-practice/tree/master/2365-task-scheduler-ii) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/2553-separate-the-digits-in-an-array) |
 | [3612-process-string-with-special-operations-i](https://github.com/Rawkush/Coding-practice/tree/master/3612-process-string-with-special-operations-i) |
+| [3614-process-string-with-special-operations-ii](https://github.com/Rawkush/Coding-practice/tree/master/3614-process-string-with-special-operations-ii) |
 ## Topological Sort
 |  |
 | ------- |
