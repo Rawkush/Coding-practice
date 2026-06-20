@@ -85,11 +85,16 @@ public:
 
         s = s.substr(idx, s.size());
         // cout<< s <<" "<<idx<<endl;
-
+        /**
+        * if this new substring has prefixes, remove those
+        */
         s = removeUnnecessaryStartingPrefix(s);
         // cout<<s<< endl;
-        s = removeUnnecassyRotation(s);
 
+        /***
+        * since the input string ha chnaged we will need to recompute the string length array
+        *
+        */
         vector<long long> stringLengthArr2(s.size());
         long long newStringLen = getStringLen(s, stringLengthArr2);
 
