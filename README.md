@@ -475,6 +475,7 @@
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Rawkush/Coding-practice/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/Rawkush/Coding-practice/tree/master/2220-minimum-bit-flips-to-convert-number) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Rawkush/Coding-practice/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
+| [3307-find-the-k-th-character-in-string-game-ii](https://github.com/Rawkush/Coding-practice/tree/master/3307-find-the-k-th-character-in-string-game-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Rawkush/Coding-practice/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Math
 |  |
@@ -487,6 +488,7 @@
 | [1344-angle-between-hands-of-a-clock](https://github.com/Rawkush/Coding-practice/tree/master/1344-angle-between-hands-of-a-clock) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Rawkush/Coding-practice/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
+| [3307-find-the-k-th-character-in-string-game-ii](https://github.com/Rawkush/Coding-practice/tree/master/3307-find-the-k-th-character-in-string-game-ii) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Rawkush/Coding-practice/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Rawkush/Coding-practice/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Rawkush/Coding-practice/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -538,4 +540,5 @@
 | ------- |
 | [0224-basic-calculator](https://github.com/Rawkush/Coding-practice/tree/master/0224-basic-calculator) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Rawkush/Coding-practice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
+| [3307-find-the-k-th-character-in-string-game-ii](https://github.com/Rawkush/Coding-practice/tree/master/3307-find-the-k-th-character-in-string-game-ii) |
 <!---LeetCode Topics End-->
