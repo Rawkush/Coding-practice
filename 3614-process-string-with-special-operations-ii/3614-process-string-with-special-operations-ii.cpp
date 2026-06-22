@@ -68,10 +68,10 @@ public:
     }
  
     char processStr(string s, long long k) {
-        s = removeUnnecessaryStartingPrefix(s);
+        // s = removeUnnecessaryStartingPrefix(s);
         vector<long long> sl(s.size());
 
-        s = removeUnnecassyRotation(s);
+        // s = removeUnnecassyRotation(s);
         long long len = getStringLen(s, sl);
 
         int idx = 0;
