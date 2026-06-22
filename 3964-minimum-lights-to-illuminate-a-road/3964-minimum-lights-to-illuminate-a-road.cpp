@@ -6,8 +6,8 @@ public:
         // cou  t<<l<<" "<<r<<endl;
         for(int i=l; i<=r; i++ ) {
             if(arr[i]!=-1) i = arr[i];
-            if(arr[i] >= r) break;
-            arr[i] = r; // light
+            else if(arr[i] >= r) break;
+            else arr[i] = r; // light
         }
     }
     int minLights(vector<int>& lights) {
