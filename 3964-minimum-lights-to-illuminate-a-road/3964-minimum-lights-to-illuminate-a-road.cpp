@@ -16,16 +16,17 @@ public:
             if(lights[i] ==0 ) continue;
             fillStreet(arr, i, lights[i]);
         }
-        cout<<arr[0];
+        // cout<<arr[0];
 
         //now we fil remaining dark sopts
         int count=0;
         for(int i=0; i<arr.size(); i++) {
             if(arr[i]!=-1) continue;
-            if(arr[i]==-1 && i+1>=arr.size()) {
-                arr[i] =1;
-                count++;
-            } else if(arr[i]==-1 && arr[i+1]==-1) {
+            // if(arr[i]==-1 && i+1>=arr.size()) {
+            //     arr[i] =1;
+            //     count++;
+            // } else 
+            if(arr[i]==-1 && i+1<arr.size() && arr[i+1]==-1) {
                 arr[i]=1;
                 arr[i+1] =1;
                 if(i+2 < arr.size()) arr[i+2] = 1;
