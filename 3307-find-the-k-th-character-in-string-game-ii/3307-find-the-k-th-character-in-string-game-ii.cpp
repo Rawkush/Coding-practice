@@ -6,9 +6,9 @@ public:
         if(k <= s/2) { // k is in left part current op is useless so ignore
             return helper(k, s/2, op, idx-1);
         } else {
-            // if it is onr right side then it means apply all previous operation
+            // if it is on right side then it means apply all previous operation
             int ans = helper(k -(s/2), s/2, op, idx-1);
-            cout<<ans;
+            // cout<<ans;
             if(op[idx]==1) ans = (ans+1)%26;
             return ans;
         }
