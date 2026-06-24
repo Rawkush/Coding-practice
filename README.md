@@ -148,6 +148,7 @@
 | [3689-maximum-total-subarray-value-i](https://github.com/Rawkush/Coding-practice/tree/master/3689-maximum-total-subarray-value-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/Rawkush/Coding-practice/tree/master/3719-longest-balanced-subarray-i) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/3742-maximum-path-score-in-a-grid) |
+| [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/Rawkush/Coding-practice/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
 | [3897-maximum-value-of-concatenated-binary-segments](https://github.com/Rawkush/Coding-practice/tree/master/3897-maximum-value-of-concatenated-binary-segments) |
 ## Matrix
 |  |
@@ -194,6 +195,7 @@
 | [2126-destroying-asteroids](https://github.com/Rawkush/Coding-practice/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Rawkush/Coding-practice/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Rawkush/Coding-practice/tree/master/3689-maximum-total-subarray-value-i) |
+| [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/Rawkush/Coding-practice/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
 | [3897-maximum-value-of-concatenated-binary-segments](https://github.com/Rawkush/Coding-practice/tree/master/3897-maximum-value-of-concatenated-binary-segments) |
 ## Dynamic Programming
 |  |
