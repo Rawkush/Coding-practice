@@ -82,6 +82,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/Rawkush/Coding-practice/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Rawkush/Coding-practice/tree/master/0033-search-in-rotated-sorted-array) |
+| [0036-valid-sudoku](https://github.com/Rawkush/Coding-practice/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Rawkush/Coding-practice/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Rawkush/Coding-practice/tree/master/0056-merge-intervals) |
@@ -153,6 +154,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Rawkush/Coding-practice/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Rawkush/Coding-practice/tree/master/0048-rotate-image) |
 | [0085-maximal-rectangle](https://github.com/Rawkush/Coding-practice/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
@@ -222,6 +224,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Rawkush/Coding-practice/tree/master/0036-valid-sudoku) |
 | [0126-word-ladder-ii](https://github.com/Rawkush/Coding-practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Rawkush/Coding-practice/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/Rawkush/Coding-practice/tree/master/0133-clone-graph) |
