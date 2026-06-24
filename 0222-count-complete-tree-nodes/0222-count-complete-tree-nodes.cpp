@@ -12,22 +12,21 @@
 class Solution {
 public:
     int countNodes(TreeNode* root) {
-        if(!root) return 0;
-        int lh=0;
-        int rh=0;
-        TreeNode*node=root;
-        while(node){
-            node=node->left;
+        int lh = 0, rh=0;
+        TreeNode *tmp = root;
+        while(tmp) {
+            tmp=tmp->left;
             lh++;
         }
-        node=root;
-        while(node){
-            node=node->right;
+        tmp =root;
+        while(tmp) {
+            tmp=tmp->right;
             rh++;
         }
-        if(lh==rh){
-            return pow(2, lh)-1;
-        }
-        return 1 + countNodes(root->left) + countNodes(root->right);
+
+        if(lh == rh) return (1<<lh)-1; // 2^n -1
+        lh = countNodes(root->left);
+        rh = countNodes(root->right);
+        return lh+rh+1;
     }
 };
