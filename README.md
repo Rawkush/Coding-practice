@@ -131,6 +131,7 @@
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
 | [2365-task-scheduler-ii](https://github.com/Rawkush/Coding-practice/tree/master/2365-task-scheduler-ii) |
+| [2381-shifting-letters-ii](https://github.com/Rawkush/Coding-practice/tree/master/2381-shifting-letters-ii) |
 | [2540-minimum-common-value](https://github.com/Rawkush/Coding-practice/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/2553-separate-the-digits-in-an-array) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Rawkush/Coding-practice/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
@@ -259,6 +260,7 @@
 | [1871-jump-game-vii](https://github.com/Rawkush/Coding-practice/tree/master/1871-jump-game-vii) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Rawkush/Coding-practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/Rawkush/Coding-practice/tree/master/2232-adding-spaces-to-a-string) |
+| [2381-shifting-letters-ii](https://github.com/Rawkush/Coding-practice/tree/master/2381-shifting-letters-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Rawkush/Coding-practice/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3093-longest-common-suffix-queries](https://github.com/Rawkush/Coding-practice/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Rawkush/Coding-practice/tree/master/3120-count-the-number-of-special-characters-i) |
@@ -458,6 +460,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/Rawkush/Coding-practice/tree/master/0560-subarray-sum-equals-k) |
 | [0848-shifting-letters](https://github.com/Rawkush/Coding-practice/tree/master/0848-shifting-letters) |
 | [1871-jump-game-vii](https://github.com/Rawkush/Coding-practice/tree/master/1871-jump-game-vii) |
+| [2381-shifting-letters-ii](https://github.com/Rawkush/Coding-practice/tree/master/2381-shifting-letters-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Rawkush/Coding-practice/tree/master/3719-longest-balanced-subarray-i) |
 ## Binary Indexed Tree
 |  |
