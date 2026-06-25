@@ -123,6 +123,7 @@
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Rawkush/Coding-practice/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1755-defuse-the-bomb](https://github.com/Rawkush/Coding-practice/tree/master/1755-defuse-the-bomb) |
 | [1833-maximum-ice-cream-bars](https://github.com/Rawkush/Coding-practice/tree/master/1833-maximum-ice-cream-bars) |
+| [1840-maximum-building-height](https://github.com/Rawkush/Coding-practice/tree/master/1840-maximum-building-height) |
 | [1861-rotating-the-box](https://github.com/Rawkush/Coding-practice/tree/master/1861-rotating-the-box) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2126-destroying-asteroids](https://github.com/Rawkush/Coding-practice/tree/master/2126-destroying-asteroids) |
@@ -326,6 +327,7 @@
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Rawkush/Coding-practice/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Rawkush/Coding-practice/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1833-maximum-ice-cream-bars](https://github.com/Rawkush/Coding-practice/tree/master/1833-maximum-ice-cream-bars) |
+| [1840-maximum-building-height](https://github.com/Rawkush/Coding-practice/tree/master/1840-maximum-building-height) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2126-destroying-asteroids](https://github.com/Rawkush/Coding-practice/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Rawkush/Coding-practice/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
@@ -498,6 +500,7 @@
 | [0224-basic-calculator](https://github.com/Rawkush/Coding-practice/tree/master/0224-basic-calculator) |
 | [0788-rotated-digits](https://github.com/Rawkush/Coding-practice/tree/master/0788-rotated-digits) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Rawkush/Coding-practice/tree/master/1344-angle-between-hands-of-a-clock) |
+| [1840-maximum-building-height](https://github.com/Rawkush/Coding-practice/tree/master/1840-maximum-building-height) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Rawkush/Coding-practice/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3307-find-the-k-th-character-in-string-game-ii](https://github.com/Rawkush/Coding-practice/tree/master/3307-find-the-k-th-character-in-string-game-ii) |
