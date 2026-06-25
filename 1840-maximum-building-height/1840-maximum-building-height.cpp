@@ -60,23 +60,32 @@ public:
         for(auto &x: heights) {
             int ph = previousHeight;
             int h = x.second;
-            int distance = x.first - prevIdx;
+            int distance = abs(x.first - prevIdx);
+
+            int heightDiff = abs(ph-h);
+
+            //to make heigh equal how we need ot travel disance
+            int remainingDistance = abs(heightDiff-distance);
+
+            int inc = ceil(remainingDistance/2);
+            ans = max(ans, max(ph,h)+inc);
+
             //distance bewtween two buildind is d
-            while(distance>0) {
-                // if(distance == 1) break;
-                if(abs(ph-h)>1) {
-                    if(ph>h) h++;
-                    else ph++;
-                    distance--;
-                } else {
-                    if(distance == 1) { 
-                        distance--; 
-                    }                              // was: { ph++; distance--; }
-                    else if(ph == h) { ph++; h++; distance -= 2; }
-                    else { if(ph > h) h++; else ph++; distance--; } // equalize first
-                }
-            }
-            ans = max(ans, max(h, ph));
+            // while(distance>0) {
+            //     // if(distance == 1) break;
+            //     if(abs(ph-h)>1) {
+            //         if(ph>h) h++;
+            //         else ph++;
+            //         distance--;
+            //     } else {
+            //         if(distance == 1) { 
+            //             distance--; 
+            //         }                              // was: { ph++; distance--; }
+            //         else if(ph == h) { ph++; h++; distance -= 2; }
+            //         else { if(ph > h) h++; else ph++; distance--; } // equalize first
+            //     }
+            // }
+            // ans = max(ans, max(h, ph));
             previousHeight = x.second;
             prevIdx = x.first;
         }
