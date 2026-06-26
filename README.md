@@ -99,6 +99,7 @@
 | [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/Rawkush/Coding-practice/tree/master/0221-maximal-square) |
+| [0229-majority-element-ii](https://github.com/Rawkush/Coding-practice/tree/master/0229-majority-element-ii) |
 | [0303-range-sum-query-immutable](https://github.com/Rawkush/Coding-practice/tree/master/0303-range-sum-query-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/Rawkush/Coding-practice/tree/master/0307-range-sum-query-mutable) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -232,6 +233,7 @@
 | [0133-clone-graph](https://github.com/Rawkush/Coding-practice/tree/master/0133-clone-graph) |
 | [0146-lru-cache](https://github.com/Rawkush/Coding-practice/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/Rawkush/Coding-practice/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Rawkush/Coding-practice/tree/master/0229-majority-element-ii) |
 | [0355-design-twitter](https://github.com/Rawkush/Coding-practice/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Rawkush/Coding-practice/tree/master/0460-lfu-cache) |
 | [0560-subarray-sum-equals-k](https://github.com/Rawkush/Coding-practice/tree/master/0560-subarray-sum-equals-k) |
@@ -324,6 +326,7 @@
 | [0148-sort-list](https://github.com/Rawkush/Coding-practice/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Rawkush/Coding-practice/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rawkush/Coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0229-majority-element-ii](https://github.com/Rawkush/Coding-practice/tree/master/0229-majority-element-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0414-third-maximum-number](https://github.com/Rawkush/Coding-practice/tree/master/0414-third-maximum-number) |
 | [0561-array-partition](https://github.com/Rawkush/Coding-practice/tree/master/0561-array-partition) |
@@ -365,6 +368,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Rawkush/Coding-practice/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Rawkush/Coding-practice/tree/master/0229-majority-element-ii) |
 | [0621-task-scheduler](https://github.com/Rawkush/Coding-practice/tree/master/0621-task-scheduler) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Rawkush/Coding-practice/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 ## Linked List
