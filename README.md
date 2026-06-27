@@ -181,6 +181,7 @@
 | [0061-rotate-list](https://github.com/Rawkush/Coding-practice/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Rawkush/Coding-practice/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0148-sort-list](https://github.com/Rawkush/Coding-practice/tree/master/0148-sort-list) |
+| [0151-reverse-words-in-a-string](https://github.com/Rawkush/Coding-practice/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/Rawkush/Coding-practice/tree/master/0189-rotate-array) |
 | [0443-string-compression](https://github.com/Rawkush/Coding-practice/tree/master/0443-string-compression) |
 | [1861-rotating-the-box](https://github.com/Rawkush/Coding-practice/tree/master/1861-rotating-the-box) |
@@ -258,6 +259,7 @@
 | [0091-decode-ways](https://github.com/Rawkush/Coding-practice/tree/master/0091-decode-ways) |
 | [0126-word-ladder-ii](https://github.com/Rawkush/Coding-practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Rawkush/Coding-practice/tree/master/0127-word-ladder) |
+| [0151-reverse-words-in-a-string](https://github.com/Rawkush/Coding-practice/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/Rawkush/Coding-practice/tree/master/0224-basic-calculator) |
 | [0443-string-compression](https://github.com/Rawkush/Coding-practice/tree/master/0443-string-compression) |
 | [0678-valid-parenthesis-string](https://github.com/Rawkush/Coding-practice/tree/master/0678-valid-parenthesis-string) |
