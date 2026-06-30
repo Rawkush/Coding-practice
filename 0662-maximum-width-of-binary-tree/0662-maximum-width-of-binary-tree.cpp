@@ -12,38 +12,29 @@
 class Solution {
 public:
     int widthOfBinaryTree(TreeNode* root) {
-        if(!root) return 0;
-        queue<pair<TreeNode*,long>> q;
+        queue<pair<TreeNode*,long long>> q;
         q.push({root, 0});
-        int mw = 0; //mx width
-        while(!q.empty()){
-            int n = q.size();
-            int cw=0; //current width
-            long parentIdx = q.front().second; //left most itemIDx in parent
-            int firstIdx =0;
-            int lastIdx = 0;
-
-            for(int i=0; i<n; i++){
-                pair<TreeNode*, long> p = q.front();
+        long long distance = 0;
+        while(!q.empty()) {
+            int s = q.size();
+            long long idx1  = 0;
+            for(int i=0; i<s; i++) { 
+                auto p = q.front();
                 q.pop();
-                TreeNode* node= p.first;
-                long idx = p.second - parentIdx; // subtracting this so that
-                // for every lvl idx starts from 0 
-                if(i==0){
-                    firstIdx = idx;
+                if(i==0) {
+                  distance = max(distance, (long long)1);
+                  idx1 = p.second;
+                } else {
+                    distance = max(distance, abs(idx1 - p.second) + 1);
                 }
-                lastIdx = idx;
-                if(node->left){
-                    q.push({node->left, 2*idx+1});
+                if(p.first->left) {
+                    q.push({ p.first->left, (long long)2*p.second + 1 - idx1 });
                 }
-                if(node->right){
-                    q.push({node->right,  2*idx+2});
+                if(p.first->right) {
+                    q.push({  p.first->right, (long long)2*p.second + 2 - idx1 });
                 }
             }
-            cw=lastIdx - firstIdx +1;
-            mw = max(mw, cw);
         }
-
-        return mw;
+        return distance;
     }
 };
