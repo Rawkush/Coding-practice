@@ -257,6 +257,7 @@
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Rawkush/Coding-practice/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Rawkush/Coding-practice/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Rawkush/Coding-practice/tree/master/3121-count-the-number-of-special-characters-ii) |
+| [3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Rawkush/Coding-practice/tree/master/3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Rawkush/Coding-practice/tree/master/3719-longest-balanced-subarray-i) |
 ## String
 |  |
@@ -285,6 +286,7 @@
 | [3120-count-the-number-of-special-characters-i](https://github.com/Rawkush/Coding-practice/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Rawkush/Coding-practice/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3163-string-compression-iii](https://github.com/Rawkush/Coding-practice/tree/master/3163-string-compression-iii) |
+| [3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Rawkush/Coding-practice/tree/master/3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3612-process-string-with-special-operations-i](https://github.com/Rawkush/Coding-practice/tree/master/3612-process-string-with-special-operations-i) |
 | [3614-process-string-with-special-operations-ii](https://github.com/Rawkush/Coding-practice/tree/master/3614-process-string-with-special-operations-ii) |
 ## Backtracking
@@ -299,6 +301,7 @@
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Rawkush/Coding-practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1755-defuse-the-bomb](https://github.com/Rawkush/Coding-practice/tree/master/1755-defuse-the-bomb) |
 | [1871-jump-game-vii](https://github.com/Rawkush/Coding-practice/tree/master/1871-jump-game-vii) |
+| [3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Rawkush/Coding-practice/tree/master/3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3634-minimum-removals-to-balance-array](https://github.com/Rawkush/Coding-practice/tree/master/3634-minimum-removals-to-balance-array) |
 ## Simulation
 |  |
