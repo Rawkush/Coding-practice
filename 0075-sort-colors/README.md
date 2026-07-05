@@ -1,33 +1,32 @@
-<h2><a href="https://leetcode.com/problems/sort-colors/">75. Sort Colors</a></h2><h3>Medium</h3><hr>Can you solve this real interview question? Sort Colors - Given an array nums with n objects colored red, white, or blue, sort them in-place [https://en.wikipedia.org/wiki/In-place_algorithm] so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+<h2><a href="https://leetcode.com/problems/sort-colors">75. Sort Colors</a></h2><h3>Medium</h3><hr><p>Given an array <code>nums</code> with <code>n</code> objects colored red, white, or blue, sort them <strong><a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank">in-place</a> </strong>so that objects of the same color are adjacent, with the colors in the order red, white, and blue.</p>
 
-We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
+<p>We will use the integers <code>0</code>, <code>1</code>, and <code>2</code> to represent the color red, white, and blue, respectively.</p>
 
-You must solve this problem without using the library's sort function.
+<p>You must solve this problem without using the library&#39;s sort function.</p>
 
- 
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-Example 1:
+<pre>
+<strong>Input:</strong> nums = [2,0,2,1,1,0]
+<strong>Output:</strong> [0,0,1,1,2,2]
+</pre>
 
+<p><strong class="example">Example 2:</strong></p>
 
-Input: nums = [2,0,2,1,1,0]
-Output: [0,0,1,1,2,2]
+<pre>
+<strong>Input:</strong> nums = [2,0,1]
+<strong>Output:</strong> [0,1,2]
+</pre>
 
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Example 2:
+<ul>
+	<li><code>n == nums.length</code></li>
+	<li><code>1 &lt;= n &lt;= 300</code></li>
+	<li><code>nums[i]</code> is either <code>0</code>, <code>1</code>, or <code>2</code>.</li>
+</ul>
 
-
-Input: nums = [2,0,1]
-Output: [0,1,2]
-
-
- 
-
-Constraints:
-
- * n == nums.length
- * 1 <= n <= 300
- * nums[i] is either 0, 1, or 2.
-
- 
-
-Follow up: Could you come up with a one-pass algorithm using only constant extra space?
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong>&nbsp;Could you come up with a one-pass algorithm using only&nbsp;constant extra space?</p>
