@@ -548,6 +548,7 @@
 | [3307-find-the-k-th-character-in-string-game-ii](https://github.com/Rawkush/Coding-practice/tree/master/3307-find-the-k-th-character-in-string-game-ii) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Rawkush/Coding-practice/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Rawkush/Coding-practice/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/Rawkush/Coding-practice/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Rawkush/Coding-practice/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## String Matching
 |  |
@@ -562,6 +563,7 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/Rawkush/Coding-practice/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Trie
 |  |
 | ------- |
