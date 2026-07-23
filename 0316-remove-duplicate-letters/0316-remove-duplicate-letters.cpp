@@ -1,42 +1,55 @@
 class Solution {
 public:
-  string removeDuplicateLetters(string s) {
-    vector<int> isP(26,0);
-    vector<int> listidx(26,0);
-    stack<char> st;
-    for(int i=0; i<s.size(); i++){
-     listidx[s[i]-'a'] = i;
-    }
-
-    for(int i=0; i<s.size(); i++){
-      char c =s[i];
-      int cn = s[i]-'a';
-      if(isP[cn]) continue;
-      if(st.empty()){
-        isP[cn] = 1;
-        st.push(c);
-        continue;
-      }
-
-      int tn = st.top() -'a'; // top in num
-      char t = st.top();
-      while(!st.empty() && tn>cn && listidx[tn]>i ){
-        // cout<<t<<" ";
-        isP[tn] = 0;
-        st.pop();
-        if(!st.empty()){
-          tn = st.top()-'a';
+    void print(stack<char> st) {
+        string s= "";
+        while(!st.empty()) {
+            s+= st.top();
+            st.pop();
         }
-      }
-      st.push(c);
-      isP[cn]=1;
+        cout<<s<<endl;
+        return;
     }
+    string removeDuplicateLetters(string s) {
+        stack<char> st; // we will store 'a
+        unordered_map<char,int> cmp; //character map
+        unordered_map<char,int> isPresent; //c
 
-    string res="";
-    while(!st.empty()){
-      res =  st.top() + res;
-      st.pop();
+        for(auto x:s)cmp[x]++;
+
+        int uniqueCharLen = cmp.size();
+        for(int ch: s) {
+            cmp[ch]--;
+
+            if(isPresent[ch]) continue; // already present skip
+            isPresent[ch]=1; 
+            
+            while(!st.empty()) {
+                char top = st.top();
+                if(top == ch) break;
+                if(ch > top) {
+                    st.push(ch);
+                    break;
+                }
+                if(top > ch && cmp[top] >= 1) {
+                    st.pop();
+                    isPresent[top] = 0;
+                } else {
+                    // it means top>ch and current top cannoit be removed
+                    st.push(ch);
+                }
+            }
+            if(st.empty()){
+                st.push(ch);
+                continue;
+            }
+        }
+        
+        // print(st);
+        string res = "";
+        while(!st.empty()) {
+            res = st.top() + res;
+            st.pop();
+        }
+        return res;
     }
-    return res;
-  }
 };
