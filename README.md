@@ -207,6 +207,7 @@
 | [0561-array-partition](https://github.com/Rawkush/Coding-practice/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Rawkush/Coding-practice/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/Rawkush/Coding-practice/tree/master/0678-valid-parenthesis-string) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Rawkush/Coding-practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1382-balance-a-binary-search-tree](https://github.com/Rawkush/Coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 | [1833-maximum-ice-cream-bars](https://github.com/Rawkush/Coding-practice/tree/master/1833-maximum-ice-cream-bars) |
 | [2126-destroying-asteroids](https://github.com/Rawkush/Coding-practice/tree/master/2126-destroying-asteroids) |
@@ -283,6 +284,7 @@
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Rawkush/Coding-practice/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0796-rotate-string](https://github.com/Rawkush/Coding-practice/tree/master/0796-rotate-string) |
 | [0848-shifting-letters](https://github.com/Rawkush/Coding-practice/tree/master/0848-shifting-letters) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Rawkush/Coding-practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1143-longest-common-subsequence](https://github.com/Rawkush/Coding-practice/tree/master/1143-longest-common-subsequence) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Rawkush/Coding-practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1531-string-compression-ii](https://github.com/Rawkush/Coding-practice/tree/master/1531-string-compression-ii) |
@@ -587,6 +589,7 @@
 | [0224-basic-calculator](https://github.com/Rawkush/Coding-practice/tree/master/0224-basic-calculator) |
 | [0316-remove-duplicate-letters](https://github.com/Rawkush/Coding-practice/tree/master/0316-remove-duplicate-letters) |
 | [0678-valid-parenthesis-string](https://github.com/Rawkush/Coding-practice/tree/master/0678-valid-parenthesis-string) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Rawkush/Coding-practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Rawkush/Coding-practice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Merge Sort
 |  |
@@ -599,6 +602,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/Rawkush/Coding-practice/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Rawkush/Coding-practice/tree/master/0085-maximal-rectangle) |
 | [0316-remove-duplicate-letters](https://github.com/Rawkush/Coding-practice/tree/master/0316-remove-duplicate-letters) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Rawkush/Coding-practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## Recursion
 |  |
 | ------- |
