@@ -302,6 +302,7 @@
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Rawkush/Coding-practice/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3163-string-compression-iii](https://github.com/Rawkush/Coding-practice/tree/master/3163-string-compression-iii) |
 | [3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Rawkush/Coding-practice/tree/master/3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Rawkush/Coding-practice/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/Rawkush/Coding-practice/tree/master/3612-process-string-with-special-operations-i) |
 | [3614-process-string-with-special-operations-ii](https://github.com/Rawkush/Coding-practice/tree/master/3614-process-string-with-special-operations-ii) |
 ## Backtracking
@@ -371,6 +372,7 @@
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Rawkush/Coding-practice/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2784-check-if-array-is-good](https://github.com/Rawkush/Coding-practice/tree/master/2784-check-if-array-is-good) |
 | [3430-count-days-without-meetings](https://github.com/Rawkush/Coding-practice/tree/master/3430-count-days-without-meetings) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Rawkush/Coding-practice/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3634-minimum-removals-to-balance-array](https://github.com/Rawkush/Coding-practice/tree/master/3634-minimum-removals-to-balance-array) |
 | [3897-maximum-value-of-concatenated-binary-segments](https://github.com/Rawkush/Coding-practice/tree/master/3897-maximum-value-of-concatenated-binary-segments) |
 ## Heap (Priority Queue)
@@ -529,6 +531,7 @@
 | ------- |
 | [0561-array-partition](https://github.com/Rawkush/Coding-practice/tree/master/0561-array-partition) |
 | [1833-maximum-ice-cream-bars](https://github.com/Rawkush/Coding-practice/tree/master/1833-maximum-ice-cream-bars) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Rawkush/Coding-practice/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Bit Manipulation
 |  |
 | ------- |
