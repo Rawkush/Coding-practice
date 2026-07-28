@@ -547,6 +547,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Rawkush/Coding-practice/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/Rawkush/Coding-practice/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Rawkush/Coding-practice/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
 | [0224-basic-calculator](https://github.com/Rawkush/Coding-practice/tree/master/0224-basic-calculator) |
@@ -612,6 +613,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Rawkush/Coding-practice/tree/master/0050-powx-n) |
 | [0224-basic-calculator](https://github.com/Rawkush/Coding-practice/tree/master/0224-basic-calculator) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Rawkush/Coding-practice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [3307-find-the-k-th-character-in-string-game-ii](https://github.com/Rawkush/Coding-practice/tree/master/3307-find-the-k-th-character-in-string-game-ii) |
