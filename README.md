@@ -118,6 +118,7 @@
 | [0695-max-area-of-island](https://github.com/Rawkush/Coding-practice/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Rawkush/Coding-practice/tree/master/0733-flood-fill) |
 | [0848-shifting-letters](https://github.com/Rawkush/Coding-practice/tree/master/0848-shifting-letters) |
+| [0877-stone-game](https://github.com/Rawkush/Coding-practice/tree/master/0877-stone-game) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0918-maximum-sum-circular-subarray) |
 | [1036-rotting-oranges](https://github.com/Rawkush/Coding-practice/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Rawkush/Coding-practice/tree/master/1073-number-of-enclaves) |
@@ -230,6 +231,7 @@
 | [0678-valid-parenthesis-string](https://github.com/Rawkush/Coding-practice/tree/master/0678-valid-parenthesis-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Rawkush/Coding-practice/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0788-rotated-digits](https://github.com/Rawkush/Coding-practice/tree/master/0788-rotated-digits) |
+| [0877-stone-game](https://github.com/Rawkush/Coding-practice/tree/master/0877-stone-game) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Rawkush/Coding-practice/tree/master/0918-maximum-sum-circular-subarray) |
 | [1143-longest-common-subsequence](https://github.com/Rawkush/Coding-practice/tree/master/1143-longest-common-subsequence) |
 | [1395-count-number-of-teams](https://github.com/Rawkush/Coding-practice/tree/master/1395-count-number-of-teams) |
@@ -552,6 +554,7 @@
 | [0204-count-primes](https://github.com/Rawkush/Coding-practice/tree/master/0204-count-primes) |
 | [0224-basic-calculator](https://github.com/Rawkush/Coding-practice/tree/master/0224-basic-calculator) |
 | [0788-rotated-digits](https://github.com/Rawkush/Coding-practice/tree/master/0788-rotated-digits) |
+| [0877-stone-game](https://github.com/Rawkush/Coding-practice/tree/master/0877-stone-game) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Rawkush/Coding-practice/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1840-maximum-building-height](https://github.com/Rawkush/Coding-practice/tree/master/1840-maximum-building-height) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Rawkush/Coding-practice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -621,4 +624,8 @@
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Rawkush/Coding-practice/tree/master/3286-find-a-safe-walk-through-a-grid) |
+## Game Theory
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/Rawkush/Coding-practice/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
