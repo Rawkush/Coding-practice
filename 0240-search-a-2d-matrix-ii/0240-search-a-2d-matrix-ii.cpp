@@ -1,27 +1,36 @@
 class Solution {
 public:
-    bool helper(vector<vector<int>>& matrix, int target, int r1, int r2, int c1, int c2) {
-        if (r1 > r2 || c1 > c2) return false;
-        
-        int nr = r1 + (r2 - r1) / 2;
-        int nc = c1 + (c2 - c1) / 2;
-        
-        if (matrix[nr][nc] == target) return true;
-        
-        if (target > matrix[nr][nc]) {
-            // Search Top-Right, Bottom-Left, and Bottom-Right
-            return helper(matrix, target, r1, nr, nc + 1, c2) ||
-                   helper(matrix, target, nr + 1, r2, c1, nc) ||
-                   helper(matrix, target, nr + 1, r2, nc + 1, c2);
-        } else {
-            // Search Top-Left, Top-Right, and Bottom-Left
-            return helper(matrix, target, r1, nr - 1, c1, nc - 1) ||
-                   helper(matrix, target, r1, nr - 1, nc, c2) ||
-                   helper(matrix, target, nr, r2, c1, nc - 1);
+    int findCol(vector<vector<int>>& matrix, int target, int l, int r) {
+        if(l>r) return l;
+        int mid = (l+r)/2;
+        if(matrix[0][mid]==target) return mid;
+        if(matrix[0][mid] > target) {
+            return findCol(matrix, target, l, mid-1);
         }
+        if(l==r) return l;
+        return findCol(matrix, target, mid+1, r);
     }
 
+    bool findRow(vector<vector<int>>& matrix, int target, int l, int r, int c) {
+        if(l>r) return false;
+        int mid = (l+r) / 2;
+        if(matrix[mid][c] == target) return true;
+        if(matrix[mid][c] > target) {
+            return findRow(matrix, target, l, mid - 1, c);
+        } else {
+            return findRow(matrix, target, mid + 1, r, c);
+        }
+    }
+  
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        return helper(matrix, target, 0, matrix.size() - 1, 0, matrix[0].size() - 1);
+        int col = findCol(matrix, target, 0, matrix[0].size()-1);
+        while (col >= 0) {
+            //worst case N*logn
+            if (findRow(matrix, target, 0, matrix.size() - 1, col)) {
+                return true;
+            }
+            col--; 
+        }
+        return false;
     }
 };
