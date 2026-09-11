@@ -99,6 +99,7 @@
 | [0088-merge-sorted-array](https://github.com/Rawkush/Coding-practice/tree/master/0088-merge-sorted-array) |
 | [0130-surrounded-regions](https://github.com/Rawkush/Coding-practice/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/Rawkush/Coding-practice/tree/master/0136-single-number) |
+| [0140-word-break-ii](https://github.com/Rawkush/Coding-practice/tree/master/0140-word-break-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Rawkush/Coding-practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Rawkush/Coding-practice/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0169-majority-element](https://github.com/Rawkush/Coding-practice/tree/master/0169-majority-element) |
@@ -228,6 +229,7 @@
 | [0085-maximal-rectangle](https://github.com/Rawkush/Coding-practice/tree/master/0085-maximal-rectangle) |
 | [0091-decode-ways](https://github.com/Rawkush/Coding-practice/tree/master/0091-decode-ways) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Rawkush/Coding-practice/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0140-word-break-ii](https://github.com/Rawkush/Coding-practice/tree/master/0140-word-break-ii) |
 | [0221-maximal-square](https://github.com/Rawkush/Coding-practice/tree/master/0221-maximal-square) |
 | [0542-01-matrix](https://github.com/Rawkush/Coding-practice/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/Rawkush/Coding-practice/tree/master/0678-valid-parenthesis-string) |
@@ -251,6 +253,7 @@
 | [0126-word-ladder-ii](https://github.com/Rawkush/Coding-practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Rawkush/Coding-practice/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/Rawkush/Coding-practice/tree/master/0133-clone-graph) |
+| [0140-word-break-ii](https://github.com/Rawkush/Coding-practice/tree/master/0140-word-break-ii) |
 | [0146-lru-cache](https://github.com/Rawkush/Coding-practice/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/Rawkush/Coding-practice/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Rawkush/Coding-practice/tree/master/0229-majority-element-ii) |
@@ -282,6 +285,7 @@
 | [0091-decode-ways](https://github.com/Rawkush/Coding-practice/tree/master/0091-decode-ways) |
 | [0126-word-ladder-ii](https://github.com/Rawkush/Coding-practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Rawkush/Coding-practice/tree/master/0127-word-ladder) |
+| [0140-word-break-ii](https://github.com/Rawkush/Coding-practice/tree/master/0140-word-break-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/Rawkush/Coding-practice/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/Rawkush/Coding-practice/tree/master/0224-basic-calculator) |
 | [0316-remove-duplicate-letters](https://github.com/Rawkush/Coding-practice/tree/master/0316-remove-duplicate-letters) |
@@ -315,6 +319,7 @@
 | [0022-generate-parentheses](https://github.com/Rawkush/Coding-practice/tree/master/0022-generate-parentheses) |
 | [0078-subsets](https://github.com/Rawkush/Coding-practice/tree/master/0078-subsets) |
 | [0126-word-ladder-ii](https://github.com/Rawkush/Coding-practice/tree/master/0126-word-ladder-ii) |
+| [0140-word-break-ii](https://github.com/Rawkush/Coding-practice/tree/master/0140-word-break-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -586,6 +591,7 @@
 ## Trie
 |  |
 | ------- |
+| [0140-word-break-ii](https://github.com/Rawkush/Coding-practice/tree/master/0140-word-break-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Rawkush/Coding-practice/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3093-longest-common-suffix-queries](https://github.com/Rawkush/Coding-practice/tree/master/3093-longest-common-suffix-queries) |
 ## Queue
@@ -633,4 +639,8 @@
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/Rawkush/Coding-practice/tree/master/0877-stone-game) |
+## Memoization
+|  |
+| ------- |
+| [0140-word-break-ii](https://github.com/Rawkush/Coding-practice/tree/master/0140-word-break-ii) |
 <!---LeetCode Topics End-->
