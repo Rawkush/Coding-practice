@@ -296,6 +296,7 @@
 | [0848-shifting-letters](https://github.com/Rawkush/Coding-practice/tree/master/0848-shifting-letters) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Rawkush/Coding-practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1143-longest-common-subsequence](https://github.com/Rawkush/Coding-practice/tree/master/1143-longest-common-subsequence) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Rawkush/Coding-practice/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Rawkush/Coding-practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1531-string-compression-ii](https://github.com/Rawkush/Coding-practice/tree/master/1531-string-compression-ii) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Rawkush/Coding-practice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
@@ -611,6 +612,7 @@
 | [0316-remove-duplicate-letters](https://github.com/Rawkush/Coding-practice/tree/master/0316-remove-duplicate-letters) |
 | [0678-valid-parenthesis-string](https://github.com/Rawkush/Coding-practice/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Rawkush/Coding-practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Rawkush/Coding-practice/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Rawkush/Coding-practice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Merge Sort
 |  |
@@ -643,4 +645,8 @@
 |  |
 | ------- |
 | [0140-word-break-ii](https://github.com/Rawkush/Coding-practice/tree/master/0140-word-break-ii) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Rawkush/Coding-practice/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 <!---LeetCode Topics End-->
